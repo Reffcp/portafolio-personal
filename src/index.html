@@ -2,12 +2,38 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <title>Portafolio</title>
+  <title>Reff Covarrubias</title>
   <base href="/">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="icon" type="image/x-icon" href="favicon.ico">
 </head>
 <body>
-  <app-root></app-root>
+  <header>
+    <nav>
+      <section class="nav-logo-container">
+        <img src="./assets/logo.png" alt="Logo principal">
+      </section>
+      <section class="menu-link">
+        <a [routerLink]="inicio" >Inicio</a>
+      </section>
+      <section class="menu-link">
+        <a [routerLink]="proyectos">Proyectos</a>
+      </section>
+      <section class="menu-link">
+        <a href="/Pages/galeria">Galeria</a>
+      </section>
+      <section class="menu-link">
+        <a href="/Pages/videos">Youtube</a>
+      </section>
+      <section class="menu-link">
+        <a href="/Pages/contacto">Contacto</a>
+      </section>
+      
+    </nav>
+  </header>
+  <main>
+    <app-root></app-root>
+  </main>
+  
 </body>
 </html>
