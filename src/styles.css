@@ -29,6 +29,7 @@ header{
     height: 60px;
     display: grid;
     grid-template-rows: 1fr;
+    position: fixed;
 }
 
 nav{
@@ -108,6 +109,8 @@ nav .menu-link{
     margin-left: -3%;
 }
 
+
+
 .card-presentation{
     display: flex;
     color: white;
@@ -180,14 +183,27 @@ nav .menu-link{
     padding: 3%;
 }
 
+.galery-background{
+    background-image: url('./assets/background.jpg');
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 .galery-container{
     display: grid;
     grid-template-columns: 1fr 20fr 1fr ;
     padding-bottom: 7%;
+    padding-top: 7%;
+    background-color: rgba(0, 22, 31, 0.9);
 }
+
 .galery-container h2{
     display: grid;
     grid-column: 2;
+    font-size: xx-large;
+    color: white;
 }
 
 
@@ -204,17 +220,30 @@ nav .menu-link{
 }
 
 
+.video-background{
+    background-image: url('./assets/background-projects.jpg');
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 
 
 .video-container{
     display: grid;
     grid-template-columns: 1fr 20fr 1fr ;
     padding-bottom: 7%;
+    padding-top: 7%;
+    background-color: rgba(0, 22, 31, 0.9);
 }
 
 .video-container h2{
     display: grid;
     grid-column: 2;
+    font-size: xx-large;
+    color: white;
 }
 
 .video{
@@ -230,14 +259,28 @@ nav .menu-link{
     height: 315px;
 }
 
+.contacto-background{
+    background-image: url('./assets/background.jpg');
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
 .contacto-container{
     display: grid;
     grid-template-columns: 1fr 20fr 1fr ;
     padding-bottom: 7%;
+    padding-top: 7%;
+    background-color: rgba(0, 22, 31, 0.9);
 }
 .contacto-container h2{
     display: grid;
     grid-column: 2;
+    font-size: xx-large;
+    color: white;
 }
 
 .contacto{
@@ -248,14 +291,65 @@ nav .menu-link{
 
 .contacto form{
     display: grid;
+    width: 100%;
+    color: white;
 }
 .contacto form div{
     display: grid;
+    justify-content: center;
+    margin: 5px;
 }
 
 .contacto form button{
+    width: 160px;
+    height: 48px;
+    background-color: transparent;
+    border-radius: 11px;
+    color: white;
+    font-size: 22px;
     margin-top: 10%;
 }
 .contacto form input{
+    width: 471px;
+    height: 25px;
+    border-radius: 10px;
+}
+
+footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    background-color: rgba(0, 22, 31, 0.9);
+    color: white;
+}
+
+.footer-section-1{
+    display: grid;
+    grid-column: 1;
+    justify-content: initial;
+    margin-left: 6%;
+    margin-top: 1%;
+}
+
+.footer-section-1 img{
     width: 100%;
+}
+.footer-section-1 div{
+    margin: 10%;
+}
+.footer-section-1 p{
+    margin: 0;
+}
+
+.footer-section-2{
+    display: grid;
+    grid-column: 2;
+    justify-content: end;
+    align-items: center;
+    margin-right: 5%;
+}
+
+.section-social-footer{
+    display: grid;
+    text-align: center;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
 }
