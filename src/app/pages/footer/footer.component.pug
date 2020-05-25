@@ -1,0 +1,12 @@
+footer
+    section(class="footer-section-1")
+        p Sígueme en mis redes:
+        section(class="section-social-footer")
+            div((click)="gotoUrl('https://www.linkedin.com/in/reffcp/')")
+                img(src="../assets/logo-linkedin.svg", alt="logo-linkedin")
+            div((click)="gotoUrl('https://www.instagram.com/reffcp/')")
+                img(src="../assets/logo-instagram.svg", alt="logo-instagram")
+            div((click)="gotoUrl('https://www.facebook.com/reffcp')")
+                img(src="../assets/logo-facebook.svg", alt="logo-facebook")
+    section(class="footer-section-2")
+        p De mi para el mundo. {{date}} ® 
