@@ -218,6 +218,10 @@ nav .menu-link{
     width: 100%;
     margin: 1%;
 }
+.galery iframe{
+    background-color: white;
+    height: 430px;
+}
 
 
 .video-background{
