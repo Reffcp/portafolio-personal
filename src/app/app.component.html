@@ -1,83 +1,9 @@
 <app-nav-bar></app-nav-bar>
 <main>
 <div>
-  <section class="main-background">
-  <section id="inicio" class="main-container">
-    
-    <section class="section-main-1">
-      <div class="card-presentation">
-        <img class="profile-photo" src="../assets/yo.jpg" alt="foto-perfil">
-      <section>
-        <h2>Cristian Covarrubias</h2>
-      <h4>Desarrollador Full Stack</h4>
-      <section class="section-social">
-        <div (click)="gotoUrl('https://www.linkedin.com/in/reffcp/')">
-          <img class="social-icon" src="../assets/logo-linkedin.svg" alt="logo-linkedin">
-          <br> <p>reffcp</p>
-        </div>
-        <div (click)="gotoUrl('https://www.instagram.com/reffcp/')">
-          <img class="social-icon" src="../assets/logo-instagram.svg" alt="logo-instagram">
-          <br> <p>reffcp</p>
-        </div>
-        <div (click)="gotoUrl('https://www.facebook.com/reffcp')">
-          <img class="social-icon" src="../assets/logo-facebook.svg" alt="logo-facebook">
-          <br> <p>reffcp</p>
-        </div>
-        
-        
-        
-        
-      </section>
-      </section>
-      </div>
-    </section>
-    <section class="section-main-2">
-      <button (click)="ancla('contact')" class="main-button" >Contactar</button>
-    </section>
-  </section>
-  </section>
-
+  <app-main-content></app-main-content>
   <!-- Secci[on de proyectos-->
-  
-  <section class="projects-background">
-  <section class="projects-container">
-    
-    <h2 id="proyectos">Proyectos</h2>
-      <section class="projects">
-        <section class="project-card">
-          <img src="../assets/proyecto-3.png" alt="proyecto">
-          <div class="card-content">
-          <h3>Sitio en WordPress</h3>
-          <p>Sitio web realizado con WordPress para clínica 
-dental en Autlán de Navarro, Jalisco, México.</p>
-          </div>
-          <button (click)="gotoUrl('http://dentalsolorio.com/')">Visitar sitio web</button>
-        </section>
-        <section class="project-card">
-          <img src="../assets/proyecto-1.png" alt="proyecto">
-          <div class="card-content">
-          <h3>Tienda en WordPress</h3>
-          <p>Tienda en línea con WordPress para tienda de
-artesanías en Autlán de Navarro, Jalisco, México.</p>
-          </div>
-          <button (click)="gotoUrl('https://vicaamanoslatinas.com/')">Visitar sitio web</button>
-        </section>
-        <section class="project-card">
-          <img src="../assets/proyecto-2.png" alt="proyecto">
-          <div class="card-content">
-          <h3>Sitio web en WordPress</h3>
-          <p>Sitio web realizado con WordPress para 
-emprendimiento propio en Autlán de Navarro,
-Jalisco, México.</p>
-          </div>
-          <button (click)="gotoUrl('https://www.rebits.com.mx/')" >Visitar sitio web</button>
-        </section>
-        
-        
-        
-      </section>
-    </section>
-  </section>
+  <app-projects-content></app-projects-content>
 
    <!-- Secci[on de galer[ia-->
    <section class="galery-background">
@@ -111,43 +37,7 @@ Jalisco, México.</p>
     </section>
   </section>
    <!-- Secci[on de contacto-->
-   <section class="contacto-background">
-  <section class="contacto-container">
-    
-    <h2 id="contacto">Contacto</h2>
-      <section class="contacto">
-        <form id="formContacto" action="POST">
-          <div>
-            <label for="nombre">Nombre</label>
-            <input type="text" name="nombre" id="nombre">
-          </div>
-          <div>
-            <label for="telefono">Telefono</label>
-            <input type="phone" name="telefono" id="telefono">
-          </div>
-          <div>
-            <label for="correo">Correo</label>
-            <input type="mail" name="correo" id="correo">
-          </div>
-          <div>
-            <label for="asunto">Asunto</label>
-            <input type="text" name="asunto" id="asunto">
-          </div>
-          <div>
-            <label for="adicional">Adicional</label>
-            <input type="text" name="adicional" id="adicional">
-          </div>
-
-          <div>
-            <button type="submit">Enviar</button>
-          </div>
-          
-          
-          
-        </form>
-      </section>
-    </section>
-  </section>
+   <app-contact-content></app-contact-content>
 
 </div>
 </main>

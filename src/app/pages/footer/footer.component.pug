@@ -1,12 +1,13 @@
+-var leyenda = " De mi para el mundo. {{date}} ®"
+mixin icon-footer(url,img,alt)
+    div((click)="gotoUrl('"+url+"')")
+        img(src="../assets/"+img+"", alt=""+alt+"")
 footer
-    section(class="footer-section-1")
+    section.footer-section-1
         p Sígueme en mis redes:
-        section(class="section-social-footer")
-            div((click)="gotoUrl('https://www.linkedin.com/in/reffcp/')")
-                img(src="../assets/logo-linkedin.svg", alt="logo-linkedin")
-            div((click)="gotoUrl('https://www.instagram.com/reffcp/')")
-                img(src="../assets/logo-instagram.svg", alt="logo-instagram")
-            div((click)="gotoUrl('https://www.facebook.com/reffcp')")
-                img(src="../assets/logo-facebook.svg", alt="logo-facebook")
-    section(class="footer-section-2")
-        p De mi para el mundo. {{date}} ® 
+        section.section-social-footer
+            +icon-footer("https://www.linkedin.com/in/reffcp/","logo-linkedin.svg","logo-linkedin")
+            +icon-footer("https://www.instagram.com/reffcp/","logo-instagram.svg","logo-instagram")
+            +icon-footer("https://www.facebook.com/reffcp","logo-facebook.svg","logo-facebook")
+    section.footer-section-2
+        p= leyenda
