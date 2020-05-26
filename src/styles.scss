@@ -1,0 +1,134 @@
+@import "./variables.scss";
+
+*{
+    font-family: $font1;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+
+}
+
+h2{
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+    display: inline;
+    color: $fontColorSecond;
+}
+
+header{
+    width: 100%;
+    height: 60px;
+    display: grid;
+    grid-template-rows: 1fr;
+    position: fixed;
+}
+
+nav{
+    display: grid;
+    grid-template-columns: 7fr 1fr 1fr 1fr 1fr 1fr ;
+    background-color: $fontColorPrimary;
+
+    & .logo-container{
+        margin-left: 50px;
+        & img{
+            width: 35%;
+        }
+    }
+
+    & .menu-link{
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        margin-right: 10%;
+    }
+}
+
+
+
+
+.galery-background{
+    background-image: url('./assets/background.jpg');
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.galery-container{
+    display: grid;
+    grid-template-columns: 1fr 20fr 1fr ;
+    padding-bottom: 7%;
+    padding-top: 7%;
+    background-color: $backgroundSecond;
+
+    & h2{
+        display: grid;
+        grid-column: 2;
+        font-size: xx-large;
+        color: $fontColorPrimary;
+    }
+}
+
+.galery{
+    display: grid;
+    grid-column: 2;
+    justify-items: center; 
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+
+    & img{
+        width: 100%;
+        margin: 1%;
+    }
+    & iframe{
+        background-color: $fontColorPrimary;
+        height: 430px;
+    }
+}
+
+.video-background{
+    background-image: url('./assets/background-projects.jpg');
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+.video-container{
+    display: grid;
+    grid-template-columns: 1fr 20fr 1fr ;
+    padding-bottom: 7%;
+    padding-top: 7%;
+    background-color: $backgroundSecond;
+
+    & h2{
+        display: grid;
+        grid-column: 2;
+        font-size: xx-large;
+        color: $fontColorPrimary;
+    }
+}
+
+.video{
+    display: grid;
+    grid-column: 2;
+    justify-items: center; 
+    grid-template-columns: 1fr 1fr ;
+
+    & iframe{
+        width: 100%;
+        margin: 1%;
+        height: 315px;
+    }
+}

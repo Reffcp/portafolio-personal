@@ -1,0 +1,55 @@
+@import "../../../../variables.scss";
+
+.projects-background{
+    background-image: url('../../../../assets/background-projects.jpg');
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.projects-container{
+    display: grid;
+    grid-template-columns: 1fr 20fr 1fr ;
+    padding-bottom: 7%;
+    padding-top: 7%;
+    background-color: $backgroundSecond;
+
+    & h2{
+        display: grid;
+        grid-column: 2;
+        font-size: xx-large;
+        color: $fontColorPrimary;
+    }
+    
+}
+
+.projects{
+    display: grid;
+    grid-column: 2;
+    justify-items: center; 
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.card-content{
+    margin: 3%;
+    color: $fontColorPrimary;
+}
+.project-card{
+    margin: 8%;
+    background-color: $backgroundSecond;
+    border-radius: 2%;
+
+    & button{
+        width: 100%;
+        background-color: transparent;
+        border-radius: 4px;
+        color: $fontColorPrimary;
+        font-size: 22px;
+        padding: 3%;
+    }
+
+    & img{
+        width: 100%;
+    }
+}
