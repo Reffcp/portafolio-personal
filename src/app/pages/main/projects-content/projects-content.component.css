@@ -10,23 +10,22 @@
 
 .projects-container {
   display: grid;
-  grid-template-columns: 1fr 20fr 1fr;
+  grid-template-columns: 1fr;
   padding-bottom: 7%;
   padding-top: 7%;
   background-color: rgba(0, 22, 31, 0.9);
 }
 .projects-container h2 {
-  display: grid;
-  grid-column: 2;
+  display: flex;
   font-size: xx-large;
   color: #ffffff;
+  justify-content: center;
 }
 
 .projects {
-  display: grid;
-  grid-column: 2;
-  justify-items: center;
-  grid-template-columns: 1fr 1fr 1fr;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .card-content {
@@ -35,9 +34,10 @@
 }
 
 .project-card {
-  margin: 8%;
+  margin: 1%;
   background-color: rgba(0, 22, 31, 0.9);
   border-radius: 2%;
+  max-width: 280px;
 }
 .project-card button {
   width: 100%;
