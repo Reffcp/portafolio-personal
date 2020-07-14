@@ -12,4 +12,11 @@ export class MainContentComponent implements OnInit {
   ngOnInit() {
   }
 
+  ancla(id){
+    document.getElementById(id).click();
+  }
+
+  gotoUrl(url){
+    window.open(url, '_blank');
+  }
 }
