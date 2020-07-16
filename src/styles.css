@@ -159,26 +159,103 @@ header a{
   height: 315px;
 }
 
+@media screen and (min-width:1366px){
+  .section-main-1{
+    max-width: 600px!important;
+  }
 
-@media screen and (max-width:1023px){
-    
+  .section-main-2{
+    max-width: 300px !important;
+  }
+
+  .main-button{
+    max-height: 120px !important;
+    font-size: 35px !important;
+  }
+
+  .project-card{
+    max-width: 360px !important;
+  }
+}
+
+@media screen and (max-width:1365px){
+  .contacto form input {
+    width: 471px;
+  }
 }
 @media screen and (max-width:767px){
    header{
      display: block;
-     height: initial;
+     height: auto;
    }
 
    header ol{
-     display: initial;
+     display: block;
    }
+
+   header ol li {
+    height: 50px;
+   }
+
+   header a{
+     justify-content: center;
+   }
+
+   header .logo{
+     text-align: center;
+   }
+
+   .contacto form input {
+    width: 471px !important;
+  }
 }
+
 @media screen and (max-width:550px){
-    
+  .contacto form input {
+    width: 400px !important;
+  }
+
+  .card-presentation section{
+    font-size: 0.90em !important;
+  }
+
+  footer{
+    display: block !important;
+  }
+  footer div{
+    justify-content: center !important;
+  }
+
+  
 }
 @media screen and (max-width:480px){
-    
+  .contacto form input {
+    width: 300px !important;
+  }
+  .card-presentation section{
+    font-size: 0.75em !important;
+  }
+
+  footer{
+    display: block !important;
+  }
+  footer div{
+    justify-content: center !important;
+  }
 }
 @media screen and (max-width:320px){
-    
+  .contacto form input {
+    width: 250px !important;
+  }
+
+  .card-presentation section{
+    font-size: 0.5em !important;
+  }
+
+  footer{
+    display: block !important;
+  }
+  footer div{
+    justify-content: center !important;
+  }
 }

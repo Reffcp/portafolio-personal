@@ -1,14 +1,16 @@
 
 <footer>
-  <section class="footer-section-1">
+  <div class="footer-section-1">
     <p>Sígueme en mis redes:</p>
     <section class="section-social-footer">
-      <div (click)="gotoUrl('https://www.linkedin.com/in/reffcp/')"><img src="../assets/logo-linkedin.svg" alt="logo-linkedin"/></div>
-      <div (click)="gotoUrl('https://www.instagram.com/reffcp/')"><img src="../assets/logo-instagram.svg" alt="logo-instagram"/></div>
-      <div (click)="gotoUrl('https://www.facebook.com/reffcp')"><img src="../assets/logo-facebook.svg" alt="logo-facebook"/></div>
+      <div >
+        <img src="../assets/logo-linkedin.svg" alt="logo-linkedin" (click)="gotoUrl('https://www.linkedin.com/in/reffcp/')"/>
+        <img src="../assets/logo-instagram.svg" alt="logo-instagram" (click)="gotoUrl('https://www.instagram.com/reffcp/')"/>
+        <img src="../assets/logo-facebook.svg" alt="logo-facebook" (click)="gotoUrl('https://www.facebook.com/reffcp')"/>
+      </div>
     </section>
-  </section>
-  <section class="footer-section-2">
+  </div>
+  <div class="footer-section-2">
     <p> De mi para el mundo. {{date}} ®</p>
-  </section>
+  </div>
 </footer>
