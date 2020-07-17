@@ -208,6 +208,10 @@ header a{
    .contacto form input {
     width: 471px !important;
   }
+
+  .icon-menu {
+    display: block;
+  }
 }
 
 @media screen and (max-width:550px){
