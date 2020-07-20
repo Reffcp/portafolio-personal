@@ -12,6 +12,23 @@ body {
   right: 0;
 }
 
+.icon-menu {
+  content: "\e9bd";
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: rgba(0, 0, 0, 0.8);
+  
+  line-height: 40px;
+  text-align: center;
+  position: fixed;
+  z-index: 4;
+  left: 5px;
+  top: 5px;
+  color: white;
+  display: none;
+}
+
 h2 {
   text-align: center;
 }
@@ -159,6 +176,7 @@ header a{
   height: 315px;
 }
 
+
 @media screen and (min-width:1366px){
   .section-main-1{
     max-width: 600px!important;
@@ -211,6 +229,33 @@ header a{
 
   .icon-menu {
     display: block;
+    z-index: 1;
+  }
+
+  .menu{
+    position: fixed;
+    background-color:rgba(0, 22, 31, 0.9);
+    
+    top: 0;
+    left: -100vw;
+    width: 100vw;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 0;
+    
+  }
+  .menu ol li a{
+    color: white;
+    font-size: 2em;
+    height: 40px;
+    text-decoration: underline;
+    margin-bottom: 1.5em;
+  }
+
+  .menu.is-active{
+    left: 0;
   }
 }
 
@@ -263,3 +308,4 @@ header a{
     justify-content: center !important;
   }
 }
+
