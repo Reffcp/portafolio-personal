@@ -45,6 +45,7 @@
               "extractLicenses": true,
               "vendorChunk": false,
               "buildOptimizer": true,
+              "baseHref": "https://reffcp.github.io/portafolio-personal/",
               "budgets": [
                 {
                   "type": "initial",
