@@ -1,4 +1,37 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+@font-face {
+  font-family: 'icomoon';
+  src:  url('https://i.icomoon.io/public/temp/8be2835032/UntitledProject/icomoon.eot?g1a73y');
+  src:  url('https://i.icomoon.io/public/temp/8be2835032/UntitledProject/icomoon.eot?g1a73y#iefix') format('embedded-opentype'),
+    url('https://i.icomoon.io/public/temp/8be2835032/UntitledProject/icomoon.ttf?g1a73y') format('truetype'),
+    url('https://i.icomoon.io/public/temp/8be2835032/UntitledProject/icomoon.woff?g1a73y') format('woff'),
+    url('https://i.icomoon.io/public/temp/8be2835032/UntitledProject/icomoon.svg?g1a73y#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-menu:before {
+  content: "\e9bd";
+}
+
+
+
 * {
   font-family: "Roboto", sans serif;
 }
@@ -14,18 +47,14 @@ body {
 
 .icon-menu {
   content: "\e9bd";
-  width: 40px;
-  height: 40px;
-  border-radius: 50%;
-  background-color: rgba(0, 0, 0, 0.8);
-  
-  line-height: 40px;
+  width: 60px;
   text-align: center;
-  position: fixed;
+  position: absolute;
   z-index: 4;
   left: 5px;
-  top: 5px;
-  color: white;
+  top: 11px;
+  color: #bc4300;
+  font-size: 2em;
   display: none;
 }
 
