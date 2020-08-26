@@ -50,3 +50,9 @@
 .project-card img {
   width: 100%;
 }
+
+.project-card-icon{
+  width: 4% !important;
+  position: absolute !important;
+  background-color: black;
+}
