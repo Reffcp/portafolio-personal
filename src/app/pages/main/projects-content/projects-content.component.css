@@ -55,4 +55,9 @@
   width: 4% !important;
   position: absolute !important;
   background-color: black;
+ 
+}
+
+.transparente{
+  background-color:transparent !important;
 }
