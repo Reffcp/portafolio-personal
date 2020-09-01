@@ -5,11 +5,12 @@ import { HeaderComponent } from './layout/header/header.component';
 import { ComponentsRoutingModule } from './components-routing.module';
 import { FooterComponent } from './layout/footer/footer.component';
 import { InicioComponent } from './inicio/inicio.component';
+import { ProyectosComponent } from './proyectos/proyectos.component';
 
 
 
 @NgModule({
-  declarations: [ComponentsComponent, HeaderComponent, FooterComponent, InicioComponent],
+  declarations: [ComponentsComponent, HeaderComponent, FooterComponent, InicioComponent, ProyectosComponent],
   imports: [
     CommonModule,
     ComponentsRoutingModule
