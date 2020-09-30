@@ -3,7 +3,7 @@
         <h2 id="proyectos">Proyectos</h2>
         <section class="projects">
             <section class="project-card" *ngFor="let proyecto of proyectos">
-                <img class="project-card-icon" src="../../../../assets/logos/js-logo.png" alt="">
+                <img class="project-card-icon" [src]="'assets/logos/'+proyecto.techlonogy+'.png'" alt="">
                 <img [src]="proyecto.img" [alt]="proyecto.name" />
                 <div class="card-content">
                     <h3>{{proyecto.name}}</h3>

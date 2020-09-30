@@ -57,7 +57,7 @@
         "id":7,
         "name":"Rick and Morty",
         "description":"PWA para consulta y detalle de la serie Rick and Morty",
-        "img":"",
+        "img":"assets/rick-and-morty.png",
         "demolink":"https://rick-and-morty-angular.web.app/inicio",
         "githubrepo":"https://github.com/Reffcp/rick-and-morty-angular",
         "techlonogy":"angular"
