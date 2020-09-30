@@ -1,0 +1,65 @@
+[
+    {
+        "id":1,
+        "name":"100tifico",
+        "description":"Sitio web realizado con Vanilla JS.",
+        "img":"assets/100tifico.png",
+        "demolink":"https://reffcp.github.io/100tifico/",
+        "githubrepo":"https://github.com/Reffcp/100tifico",
+        "techlonogy":"javascript"
+    },
+    {
+        "id":2,
+        "name":"Clon frontal de Google",
+        "description":"Sitio realizado con HTML y CSS para maquetar una vista.",
+        "img":"assets/clone-google.png",
+        "demolink":"https://reffcp.github.io/clone-front-google/",
+        "githubrepo":"https://github.com/Reffcp/clone-front-google",
+        "techlonogy":"css"
+    },
+    {
+        "id":3,
+        "name":"Moodle CUCSUR",
+        "description":"LMS para un Centro Univarsitario de la Univarsidad de Guadalajara.",
+        "img":"assets/moodle-cucsur.png",
+        "demolink":"http://moodle.cucostasur.udg.mx/moodle3/",
+        "githubrepo":"",
+        "techlonogy":"moodle"
+    },
+    {
+        "id":4,
+        "name":"Solorio Dental",
+        "description":"Sitio web realizado con WordPress para clínica dental en Autlán de Navarro, Jalisco, México.",
+        "img":"assets/proyecto-3.png",
+        "demolink":"http://dentalsolorio.com/",
+        "githubrepo":"",
+        "techlonogy":"wordpress"
+    },
+    {
+        "id":5,
+        "name":"VICAA Manos Latinas",
+        "description":"Tienda en línea con WordPress para tienda de artesanías en Autlán de Navarro, Jalisco, México.",
+        "img":"assets/proyecto-1.png",
+        "demolink":"https://vicaamanoslatinas.com/",
+        "githubrepo":"",
+        "techlonogy":"wordpress"
+    },
+    {
+        "id":6,
+        "name":"Rebits MX",
+        "description":"Sitio web realizado con WordPress para emprendimiento propio en Autlán de Navarro, Jalisco, México.",
+        "img":"assets/proyecto-2.png",
+        "demolink":"https://www.rebits.com.mx/",
+        "githubrepo":"",
+        "techlonogy":"wordpress"
+    },
+    {
+        "id":7,
+        "name":"Rick and Morty",
+        "description":"PWA para consulta y detalle de la serie Rick and Morty",
+        "img":"",
+        "demolink":"https://rick-and-morty-angular.web.app/inicio",
+        "githubrepo":"https://github.com/Reffcp/rick-and-morty-angular",
+        "techlonogy":"angular"
+    }
+]
