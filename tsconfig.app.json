@@ -9,14 +9,10 @@
     "src/polyfills.ts"
   ],
   "include": [
-<<<<<<< HEAD
     "src/**/*.ts"
   ],
   "exclude": [
     "src/test.ts",
     "src/**/*.spec.ts"
-=======
-    "src/**/*.d.ts"
->>>>>>> 32caa8ed5f9c4704b95ea9c87df60f6aef20ca29
   ]
 }

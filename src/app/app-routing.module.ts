@@ -1,19 +1,4 @@
 import { NgModule } from '@angular/core';
-<<<<<<< HEAD
-import { Routes, RouterModule } from '@angular/router';
-
-
-const routes: Routes = [];
-
-@NgModule({
-  imports: [RouterModule.forRoot(routes)],
-  exports: [RouterModule]
-})
-export class AppRoutingModule {
-  
- }
- 
-=======
 import { Routes, RouterModule, PreloadAllModules } from '@angular/router';
 import { LayoutComponent } from './layout/layout.component';
 
@@ -50,4 +35,3 @@ const routes: Routes = [
   exports: [RouterModule]
 })
 export class AppRoutingModule { }
->>>>>>> 32caa8ed5f9c4704b95ea9c87df60f6aef20ca29
