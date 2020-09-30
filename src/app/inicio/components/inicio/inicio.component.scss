@@ -1,0 +1,71 @@
+.main-background {
+  background-image: url("../../../../assets/background.jpg");
+  width: 100%;
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.main-container {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: rgba(0, 22, 31, 0.9);
+  justify-content: center;
+}
+
+.profile-photo {
+  width: 45%;
+  margin: 3%;
+  border-radius: 5%;
+}
+
+.section-main-1 {
+  display: grid;
+  grid-column: 2;
+  justify-items: center;
+  margin: 8%;
+  background-color: rgba(0, 22, 31, 0.9);
+  border-radius: 2%;
+  max-width: 500px;
+}
+
+.section-main-2 {
+  display: flex;
+  justify-items: center;
+  align-items: center;
+  margin: 1%;
+  width: 100%;
+  max-width: 250px;
+}
+
+.social-icon {
+  width: 65%;
+  margin-left: 2%;
+}
+
+.section-social {
+  display: flex;
+  margin-top: 15%;
+  text-align: center;
+  margin-right: 30%;
+  margin-left: -3%;
+}
+
+.card-presentation {
+  display: flex;
+  color: #ffffff;
+}
+.card-presentation h2 {
+  margin-left: -15%;
+}
+
+.main-button {
+  max-height: 80px;
+  width: 100%;
+  height: 100%;
+  background-color: transparent;
+  border-radius: 30px;
+  color: #ffffff;
+  font-size: 22px;
+}
