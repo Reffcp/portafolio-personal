@@ -9,14 +9,14 @@ export class InicioComponent implements OnInit {
 
   constructor() { }
 
-  ngOnInit(): void {
+  public ngOnInit(): void {
   }
 
-  ancla(id){
+  public ancla(id) {
     document.getElementById(id).click();
   }
 
-  gotoUrl(url){
+  public gotoUrl(url) {
     window.open(url, '_blank');
   }
 

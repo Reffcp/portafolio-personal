@@ -1,10 +1,6 @@
 {
   "extends": "tslint:recommended",
   "rules": {
-<<<<<<< HEAD
-    "array-type": false,
-    "arrow-parens": false,
-=======
     "align": {
       "options": [
         "parameters",
@@ -14,7 +10,6 @@
     "array-type": false,
     "arrow-return-shorthand": true,
     "curly": true,
->>>>>>> 32caa8ed5f9c4704b95ea9c87df60f6aef20ca29
     "deprecation": {
       "severity": "warning"
     },
@@ -33,33 +28,22 @@
       "app",
       "kebab-case"
     ],
-<<<<<<< HEAD
-=======
     "eofline": true,
->>>>>>> 32caa8ed5f9c4704b95ea9c87df60f6aef20ca29
     "import-blacklist": [
       true,
       "rxjs/Rx"
     ],
-<<<<<<< HEAD
-    "interface-name": false,
-=======
     "import-spacing": true,
     "indent": {
       "options": [
         "spaces"
       ]
     },
->>>>>>> 32caa8ed5f9c4704b95ea9c87df60f6aef20ca29
     "max-classes-per-file": false,
     "max-line-length": [
       true,
       140
     ],
-<<<<<<< HEAD
-    "member-access": false,
-=======
->>>>>>> 32caa8ed5f9c4704b95ea9c87df60f6aef20ca29
     "member-ordering": [
       true,
       {
@@ -71,10 +55,6 @@
         ]
       }
     ],
-<<<<<<< HEAD
-    "no-consecutive-blank-lines": false,
-=======
->>>>>>> 32caa8ed5f9c4704b95ea9c87df60f6aef20ca29
     "no-console": [
       true,
       "debug",
@@ -96,18 +76,12 @@
       true,
       "as-needed"
     ],
-<<<<<<< HEAD
     "object-literal-sort-keys": false,
     "ordered-imports": false,
-=======
->>>>>>> 32caa8ed5f9c4704b95ea9c87df60f6aef20ca29
     "quotemark": [
       true,
       "single"
     ],
-<<<<<<< HEAD
-    "trailing-comma": false,
-=======
     "semicolon": {
       "options": [
         "always"
@@ -157,7 +131,6 @@
         "check-typecast"
       ]
     },
->>>>>>> 32caa8ed5f9c4704b95ea9c87df60f6aef20ca29
     "no-conflicting-lifecycle": true,
     "no-host-metadata-property": true,
     "no-input-rename": true,

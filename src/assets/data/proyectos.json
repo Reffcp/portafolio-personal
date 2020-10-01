@@ -3,63 +3,63 @@
         "id":1,
         "name":"100tifico",
         "description":"Sitio web realizado con Vanilla JS.",
-        "img":"assets/100tifico.png",
+        "img":"https://firebasestorage.googleapis.com/v0/b/portafolio-personal-264fb.appspot.com/o/proyectos%2F100tifico.png?alt=media&token=086d1246-4769-408c-bc1b-b6d7f3d31ec5",
         "demolink":"https://reffcp.github.io/100tifico/",
         "githubrepo":"https://github.com/Reffcp/100tifico",
-        "techlonogy":"javascript"
+        "techlonogy":"https://firebasestorage.googleapis.com/v0/b/portafolio-personal-264fb.appspot.com/o/tecnologias%2Fjavascript.png?alt=media&token=d263e1e9-e095-4315-83b5-cfab4aa2a5aa"
     },
     {
         "id":2,
         "name":"Clon frontal de Google",
         "description":"Sitio realizado con HTML y CSS para maquetar una vista.",
-        "img":"assets/clone-google.png",
+        "img":"https://firebasestorage.googleapis.com/v0/b/portafolio-personal-264fb.appspot.com/o/proyectos%2Fclone-google.png?alt=media&token=ff570e44-21f7-4ee5-baef-e2b2a6691e9d",
         "demolink":"https://reffcp.github.io/clone-front-google/",
         "githubrepo":"https://github.com/Reffcp/clone-front-google",
-        "techlonogy":"css"
+        "techlonogy":"https://firebasestorage.googleapis.com/v0/b/portafolio-personal-264fb.appspot.com/o/tecnologias%2Fcss.png?alt=media&token=032042ec-14b2-4781-b2f5-95312fbd8e6b"
     },
     {
         "id":3,
         "name":"Moodle CUCSUR",
         "description":"LMS para un Centro Univarsitario de la Univarsidad de Guadalajara.",
-        "img":"assets/moodle-cucsur.png",
+        "img":"https://firebasestorage.googleapis.com/v0/b/portafolio-personal-264fb.appspot.com/o/proyectos%2Fmoodle-cucsur.png?alt=media&token=a941d683-2360-4e3e-a5e5-9198c05a4007",
         "demolink":"http://moodle.cucostasur.udg.mx/moodle3/",
         "githubrepo":"",
-        "techlonogy":"moodle"
+        "techlonogy":"https://firebasestorage.googleapis.com/v0/b/portafolio-personal-264fb.appspot.com/o/tecnologias%2Fmoodle.png?alt=media&token=60a5b113-b590-4206-a2fe-834d2588c560"
     },
     {
         "id":4,
         "name":"Solorio Dental",
         "description":"Sitio web realizado con WordPress para clínica dental en Autlán de Navarro, Jalisco, México.",
-        "img":"assets/proyecto-3.png",
+        "img":"https://firebasestorage.googleapis.com/v0/b/portafolio-personal-264fb.appspot.com/o/proyectos%2Fproyecto-3.png?alt=media&token=ddffd27e-f557-4413-a04c-4ff90f43faef",
         "demolink":"http://dentalsolorio.com/",
         "githubrepo":"",
-        "techlonogy":"wordpress"
+        "techlonogy":"https://firebasestorage.googleapis.com/v0/b/portafolio-personal-264fb.appspot.com/o/tecnologias%2Fwordpress.png?alt=media&token=288f794d-adb8-4b08-a5b1-25973d27ec37"
     },
     {
         "id":5,
         "name":"VICAA Manos Latinas",
         "description":"Tienda en línea con WordPress para tienda de artesanías en Autlán de Navarro, Jalisco, México.",
-        "img":"assets/proyecto-1.png",
+        "img":"https://firebasestorage.googleapis.com/v0/b/portafolio-personal-264fb.appspot.com/o/proyectos%2Fproyecto-1.png?alt=media&token=58c43a1d-2ee5-4435-a424-c5a470b7ad54",
         "demolink":"https://vicaamanoslatinas.com/",
         "githubrepo":"",
-        "techlonogy":"wordpress"
+        "techlonogy":"https://firebasestorage.googleapis.com/v0/b/portafolio-personal-264fb.appspot.com/o/tecnologias%2Fwordpress.png?alt=media&token=288f794d-adb8-4b08-a5b1-25973d27ec37"
     },
     {
         "id":6,
         "name":"Rebits MX",
         "description":"Sitio web realizado con WordPress para emprendimiento propio en Autlán de Navarro, Jalisco, México.",
-        "img":"assets/proyecto-2.png",
+        "img":"https://firebasestorage.googleapis.com/v0/b/portafolio-personal-264fb.appspot.com/o/proyectos%2Fproyecto-2.png?alt=media&token=ec63df39-e657-4689-8326-7ada07ef764b",
         "demolink":"https://www.rebits.com.mx/",
         "githubrepo":"",
-        "techlonogy":"wordpress"
+        "techlonogy":"https://firebasestorage.googleapis.com/v0/b/portafolio-personal-264fb.appspot.com/o/tecnologias%2Fwordpress.png?alt=media&token=288f794d-adb8-4b08-a5b1-25973d27ec37"
     },
     {
         "id":7,
         "name":"Rick and Morty",
         "description":"PWA para consulta y detalle de la serie Rick and Morty",
-        "img":"assets/rick-and-morty.png",
+        "img":"https://firebasestorage.googleapis.com/v0/b/portafolio-personal-264fb.appspot.com/o/proyectos%2Frick-and-morty.png?alt=media&token=ef664cf6-9025-4d4d-9b42-195ab8634ca3",
         "demolink":"https://rick-and-morty-angular.web.app/inicio",
         "githubrepo":"https://github.com/Reffcp/rick-and-morty-angular",
-        "techlonogy":"angular"
+        "techlonogy":"https://firebasestorage.googleapis.com/v0/b/portafolio-personal-264fb.appspot.com/o/tecnologias%2Fangular.png?alt=media&token=5041b6e6-a0d2-4b4f-85d4-ea89fa65e15c"
     }
 ]
