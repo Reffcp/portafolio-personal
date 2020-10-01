@@ -3,17 +3,17 @@ import { Component, OnInit } from '@angular/core';
 @Component({
   selector: 'app-footer',
   templateUrl: './footer.component.html',
-  styleUrls: ['./footer.component.scss']
+  styleUrls: ['./footer.component.scss'],
 })
 export class FooterComponent implements OnInit {
-  date=new Date().getFullYear();
+  public date = new Date().getFullYear();
   constructor() { }
 
-  ngOnInit(): void {
+  public ngOnInit(): void {
   }
 
-  gotoUrl(url){
-    window.open(url,'_Blank');
+  public gotoUrl(url) {
+    window.open(url, '_Blank');
   }
 
 }

@@ -4,16 +4,14 @@ import { InicioComponent } from './components/inicio/inicio.component';
 import { InicioRoutingModule } from './inicio-routing.module';
 import { SharedModule } from 'src/app/shared/shared.module';
 
-
-
 @NgModule({
   declarations: [
-    InicioComponent
+    InicioComponent,
   ],
   imports: [
     CommonModule,
     InicioRoutingModule,
     SharedModule,
-  ]
+  ],
 })
 export class InicioModule { }

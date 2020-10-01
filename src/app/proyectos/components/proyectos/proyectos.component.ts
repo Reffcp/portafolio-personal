@@ -1,37 +1,37 @@
 import { Component, OnInit } from '@angular/core';
 import { ProyectosService } from 'src/app/core/services/proyectos/proyectos.service';
-import { Proyecto } from '../../../core/interfaces/proyecto';
+import { IProyecto } from '../../../core/interfaces/IProyecto';
 
 @Component({
   selector: 'app-proyectos',
   templateUrl: './proyectos.component.html',
-  styleUrls: ['./proyectos.component.scss']
+  styleUrls: ['./proyectos.component.scss'],
 })
 export class ProyectosComponent implements OnInit {
-  proyectos:Proyecto[]=[
+  public proyectos: IProyecto[] = [
     {
-        id:"",
-        name:"",
-        description:"",
-        img:"",
-        demolink:"",
-        githubrepo:"",
-        techlonogy:""
+        id: '',
+        name: '',
+        description: '',
+        img: '',
+        demolink: '',
+        githubrepo: '',
+        techlonogy: '',
     }];
-  constructor(private projectService:ProyectosService) { }
+  constructor(private projectService: ProyectosService) { }
 
-  ngOnInit(): void {
+  public ngOnInit(): void {
     this.projectService.getProjects()
-    .subscribe((res:Proyecto[]) => {
-      this.proyectos=res;
-    })
+    .subscribe((res: IProyecto[]) => {
+      this.proyectos = res;
+    });
   }
 
-  ancla(id){
+  public ancla(id) {
     document.getElementById(id).click();
   }
 
-  gotoUrl(url){
+  public gotoUrl(url) {
     window.open(url, '_blank');
   }
 

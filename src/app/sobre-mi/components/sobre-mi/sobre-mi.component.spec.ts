@@ -8,7 +8,7 @@ describe('SobreMiComponent', () => {
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ SobreMiComponent ]
+      declarations: [ SobreMiComponent ],
     })
     .compileComponents();
   }));
