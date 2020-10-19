@@ -10,13 +10,13 @@
   z-index: 4;
   left: 5px;
   top: 11px;
-  color: #bc4300;
+  color: #ffffff;
   font-size: 2em;
   display: none;
 }
 
 header {
-  background-color: #ffffff;
+  background-color: transparent;
   display: flex;
   height: 70px;
   align-items: center;
@@ -60,6 +60,7 @@ header a {
   align-items: center;
   height: inherit;
   padding: 0 10px;
+  color: #ffffff;
 }
 
 ol,
