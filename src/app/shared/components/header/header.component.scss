@@ -25,7 +25,6 @@ header {
 }
 
 header .header-container {
-  max-width: 1024;
   flex: 1;
   margin: 0 auto;
   display: inherit;
@@ -33,6 +32,8 @@ header .header-container {
   align-items: inherit;
   height: inherit;
   flex-wrap: inherit;
+  margin-left: 10%;
+  margin-right: 10%;
 }
 
 header .header-container .logo img {
@@ -74,7 +75,7 @@ figure {
   margin: 0;
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 880px) {
   header {
     display: block;
     height: auto;
