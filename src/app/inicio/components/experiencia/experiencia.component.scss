@@ -1,0 +1,30 @@
+.main-exp{
+  display: flex;
+}
+
+.img-exp{
+  width: 30%;
+  display: flex;
+  align-items: center;
+  img{
+    width: 100%;
+  }
+}
+
+.exp-content{
+  margin: 3%;
+}
+
+.exp-tecnologias{
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-color: white;
+  border-radius: 10px;
+  img{
+    margin: 1%;
+    max-width: 60px;
+    width: 100%;
+  }
+}

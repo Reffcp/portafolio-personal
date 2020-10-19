@@ -1,12 +1,6 @@
-<<<<<<< HEAD
-# Portafolio
-
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.8.
-=======
 # PortafolioPersonal
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.1.8.
->>>>>>> 32caa8ed5f9c4704b95ea9c87df60f6aef20ca29
 
 ## Development server
 

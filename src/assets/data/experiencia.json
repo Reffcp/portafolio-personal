@@ -1,0 +1,66 @@
+[
+  {
+    "DES_NOMBRE_EMPRESA": "Solorio Dental",
+    "DES_IMG": "https://firebasestorage.googleapis.com/v0/b/portafolio-personal-264fb.appspot.com/o/experiencia%2FDental-Solorio-Logo-PNG-300x84.png?alt=media&token=4efce6cc-7b78-40f9-9765-4af1401efa6f",
+    "DES_LUGAR_EMPRESA": "El Grullo, Jalisco, México.",
+    "DES_NOMBRE_PUESTO": "Full Stack Developer",
+    "FECHA_INICIO": "Noviembre 2019",
+    "FECHA_FIN": "Actualidad",
+    "DES_PUESTO": "Ingeniero de software por honorarios apoyando en el desarrollo aplicaciones para control interno",
+    "TECNOLOGIAS": [
+      {
+        "DES_NOMBRE": "https://firebasestorage.googleapis.com/v0/b/portafolio-personal-264fb.appspot.com/o/tecnologias%2Fangular.png?alt=media&token=5041b6e6-a0d2-4b4f-85d4-ea89fa65e15c"
+      },
+      {
+        "DES_NOMBRE": "https://firebasestorage.googleapis.com/v0/b/portafolio-personal-264fb.appspot.com/o/tecnologias%2Ftypescript.png?alt=media&token=5d354e51-a1fa-48ba-a23b-a88a057fa97e"
+      },
+      {
+        "DES_NOMBRE": "https://firebasestorage.googleapis.com/v0/b/portafolio-personal-264fb.appspot.com/o/tecnologias%2Fhtml5.png?alt=media&token=b8cd482c-56c0-42c6-8e3f-61bef5acbfba"
+      },
+      {
+        "DES_NOMBRE": "https://firebasestorage.googleapis.com/v0/b/portafolio-personal-264fb.appspot.com/o/tecnologias%2Fcss.png?alt=media&token=032042ec-14b2-4781-b2f5-95312fbd8e6b"
+      },
+      {
+        "DES_NOMBRE": "https://firebasestorage.googleapis.com/v0/b/portafolio-personal-264fb.appspot.com/o/tecnologias%2Fjavascript.png?alt=media&token=d263e1e9-e095-4315-83b5-cfab4aa2a5aa"
+      },
+      {
+        "DES_NOMBRE": "https://firebasestorage.googleapis.com/v0/b/portafolio-personal-264fb.appspot.com/o/tecnologias%2Fnodejs.png?alt=media&token=4d0fb5ba-3c53-4dae-a8aa-1b2d820033b9"
+      },
+      {
+        "DES_NOMBRE": "https://firebasestorage.googleapis.com/v0/b/portafolio-personal-264fb.appspot.com/o/tecnologias%2Ffirebase.png?alt=media&token=a5a552af-f546-4f94-af8d-030ea40d2813"
+      },
+      {
+        "DES_NOMBRE": "https://firebasestorage.googleapis.com/v0/b/portafolio-personal-264fb.appspot.com/o/tecnologias%2Fmysql.svg?alt=media&token=eaa011b1-8565-40c6-a06f-9cd50a54d5de"
+      }
+    ]
+  },
+  {
+    "DES_NOMBRE_EMPRESA": "Caja SMG",
+    "DES_IMG": "https://firebasestorage.googleapis.com/v0/b/portafolio-personal-264fb.appspot.com/o/experiencia%2FlogoSMG.png?alt=media&token=9c41a2b3-2218-45db-8f54-3bbfba457c3d",
+    "DES_LUGAR_EMPRESA": "El Grullo, Jalisco, México.",
+    "DES_NOMBRE_PUESTO": "Full Stack Developer",
+    "FECHA_INICIO": "Julio 2018",
+    "FECHA_FIN": "Noviembre 2019",
+    "DES_PUESTO": "Ingeniero de software por honorarios apoyando en el desarrollo de nucleo bancario y sistema de creditos",
+    "TECNOLOGIAS": [
+      {
+        "DES_NOMBRE": "https://firebasestorage.googleapis.com/v0/b/portafolio-personal-264fb.appspot.com/o/tecnologias%2Fhtml5.png?alt=media&token=b8cd482c-56c0-42c6-8e3f-61bef5acbfba"
+      },
+      {
+        "DES_NOMBRE": "https://firebasestorage.googleapis.com/v0/b/portafolio-personal-264fb.appspot.com/o/tecnologias%2Fcss.png?alt=media&token=032042ec-14b2-4781-b2f5-95312fbd8e6b"
+      },
+      {
+        "DES_NOMBRE": "https://firebasestorage.googleapis.com/v0/b/portafolio-personal-264fb.appspot.com/o/tecnologias%2Fjavascript.png?alt=media&token=d263e1e9-e095-4315-83b5-cfab4aa2a5aa"
+      },
+      {
+        "DES_NOMBRE": "https://firebasestorage.googleapis.com/v0/b/portafolio-personal-264fb.appspot.com/o/tecnologias%2Fjquery.png?alt=media&token=724c3f76-51c9-42ae-9e1c-291fc9c4e72c"
+      },
+      {
+        "DES_NOMBRE": "https://firebasestorage.googleapis.com/v0/b/portafolio-personal-264fb.appspot.com/o/tecnologias%2Fjava.webp?alt=media&token=8eb2f569-534f-4bd6-93a7-d071ae4c0a83"
+      },
+      {
+        "DES_NOMBRE": "https://firebasestorage.googleapis.com/v0/b/portafolio-personal-264fb.appspot.com/o/tecnologias%2Fsql%20server.png?alt=media&token=938d64f4-76e4-4293-bc17-3a4a0211e5ce"
+      }
+    ]
+  }
+]
