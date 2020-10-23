@@ -2,12 +2,15 @@
 
 .main-background {
   min-height: 350px;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
   color: $fontColorPrimary;
 }
 
 .section1{
+  max-width: 300px;
+  padding: 5%;
   h1{
     font-size: 2rem;
   }
@@ -17,10 +20,11 @@
 }
 
 .section2{
-  background-image: url('https://firebasestorage.googleapis.com/v0/b/portafolio-personal-264fb.appspot.com/o/background%2Fyo.jpg?alt=media&token=e071cd36-3cf3-4ec7-b3cd-1f41f5927282');
-  background-size: auto;
-  background-repeat: no-repeat;
-  background-position: center;
+  max-width: 500px;
+  padding: 5%;
+  img{
+    width: 95%;
+  }
 }
 
 
