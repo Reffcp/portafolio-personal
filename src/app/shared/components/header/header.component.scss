@@ -1,17 +1,14 @@
-.icon-menu:before {
-  content: "\e9bd";
-}
-
 .icon-menu {
-  content: "\e9bd";
-  width: 60px;
+  background-image: url('https://firebasestorage.googleapis.com/v0/b/portafolio-personal-264fb.appspot.com/o/iconos%2Fmenu.svg?alt=media&token=7880b6db-1a42-4c8f-a6a1-153407377bdc');
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 40px;
+  height: 40px;
   text-align: center;
   position: absolute;
   z-index: 4;
-  left: 5px;
+  left: 11px;
   top: 11px;
-  color: #ffffff;
-  font-size: 2em;
   display: none;
 }
 
