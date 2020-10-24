@@ -3,6 +3,7 @@
   flex-wrap: wrap;
   justify-content: center;
   border: 1px solid white;
+  background-color: rgba(255,255,255, .1);
   border-radius: 1rem;
   margin: 1%;
 }
@@ -56,5 +57,13 @@
 
   .img-exp {
     width: 80%;
+  }
+}
+
+@media (max-width: 426px) {
+  .exp-tecnologias {
+    img {
+      width: 12%;
+    }
   }
 }

@@ -1,7 +1,7 @@
 [
   {
     "DES_NOMBRE_EMPRESA": "Solorio Dental",
-    "DES_IMG": "https://firebasestorage.googleapis.com/v0/b/portafolio-personal-264fb.appspot.com/o/experiencia%2FDental-Solorio-Logo-PNG-300x84.png?alt=media&token=4efce6cc-7b78-40f9-9765-4af1401efa6f",
+    "DES_IMG": "https://firebasestorage.googleapis.com/v0/b/portafolio-personal-264fb.appspot.com/o/experiencia%2Fdental-solorio-logo.png?alt=media&token=afa1cae6-5493-4f4b-a006-6c551cbf6285",
     "DES_LUGAR_EMPRESA": "El Grullo, Jalisco, México.",
     "DES_NOMBRE_PUESTO": "Full Stack Developer",
     "FECHA_INICIO": "Noviembre 2019",
@@ -39,7 +39,7 @@
   },
   {
     "DES_NOMBRE_EMPRESA": "Caja SMG",
-    "DES_IMG": "https://firebasestorage.googleapis.com/v0/b/portafolio-personal-264fb.appspot.com/o/experiencia%2FlogoSMG.png?alt=media&token=9c41a2b3-2218-45db-8f54-3bbfba457c3d",
+    "DES_IMG": "https://firebasestorage.googleapis.com/v0/b/portafolio-personal-264fb.appspot.com/o/experiencia%2FSMG-Final.png?alt=media&token=b8589190-b3fb-428d-a672-a139f050844e",
     "DES_LUGAR_EMPRESA": "Autlán de Navarro, Jalisco, México.",
     "DES_NOMBRE_PUESTO": "Full Stack Developer",
     "FECHA_INICIO": "Julio 2018",
@@ -74,7 +74,7 @@
   },
   {
     "DES_NOMBRE_EMPRESA": "Universidad de Guadalajara",
-    "DES_IMG": "https://firebasestorage.googleapis.com/v0/b/portafolio-personal-264fb.appspot.com/o/experiencia%2Fudgnewlogo.png?alt=media&token=ef87d7a6-566a-4809-97b8-a3df6e893905",
+    "DES_IMG": "https://firebasestorage.googleapis.com/v0/b/portafolio-personal-264fb.appspot.com/o/experiencia%2Fudg-logo.png?alt=media&token=74c52fa9-3e80-4ad0-b8ca-8aac32af8ab9",
     "DES_LUGAR_EMPRESA": "Autlán de Navarro, Jalisco, México.",
     "DES_NOMBRE_PUESTO": "Full Stack Developer",
     "FECHA_INICIO": "Julio 2017",
@@ -112,7 +112,7 @@
   },
   {
     "DES_NOMBRE_EMPRESA": "Universidad de Guadalajara",
-    "DES_IMG": "https://firebasestorage.googleapis.com/v0/b/portafolio-personal-264fb.appspot.com/o/experiencia%2Fudgnewlogo.png?alt=media&token=ef87d7a6-566a-4809-97b8-a3df6e893905",
+    "DES_IMG": "https://firebasestorage.googleapis.com/v0/b/portafolio-personal-264fb.appspot.com/o/experiencia%2Fudg-logo.png?alt=media&token=74c52fa9-3e80-4ad0-b8ca-8aac32af8ab9",
     "DES_LUGAR_EMPRESA": "Autlán de Navarro, Jalisco, México.",
     "DES_NOMBRE_PUESTO": "Full Stack Developer",
     "FECHA_INICIO": "Junio 2015",

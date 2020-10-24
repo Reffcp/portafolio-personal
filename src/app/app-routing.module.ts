@@ -17,10 +17,6 @@ const routes: Routes = [
         loadChildren: () => import('./inicio/inicio.module').then( (m) => m.InicioModule),
       },
       {
-        path: 'proyectos',
-        loadChildren: () => import('./proyectos/proyectos.module').then( (m) => m.ProyectosModule),
-      },
-      {
         path: 'sobre-mi',
         loadChildren: () => import('./sobre-mi/sobre-mi.module').then( (m) => m.SobreMiModule),
       },
