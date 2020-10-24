@@ -5,8 +5,8 @@
                 <img class="project-card-icon" [src]="proyecto.techlonogy" alt="">
                 <img [src]="proyecto.img" [alt]="proyecto.name" />
                 <div class="card-content">
-                    <h3>{{proyecto.name}}</h3>
-                    <p>{{proyecto.description}}</p>
+                    <h2>{{proyecto.name}}</h2>
+                    <span>{{proyecto.description}}</span>
                 </div>
                 <button *ngIf="proyecto.demolink" (click)="gotoUrl(proyecto.demolink)">Ver proyecto</button>
                 <button *ngIf="proyecto.githubrepo" (click)="gotoUrl(proyecto.githubrepo)">Github</button>
