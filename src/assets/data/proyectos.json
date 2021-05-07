@@ -99,15 +99,6 @@
     "techlonogy": "https://firebasestorage.googleapis.com/v0/b/portafolio-personal-264fb.appspot.com/o/tecnologias%2Fangular.png?alt=media&token=5041b6e6-a0d2-4b4f-85d4-ea89fa65e15c"
   },
   {
-    "id": 12,
-    "name": "Copa SMG Caja SMG",
-    "description": "Sitio web con wordpress para registrar equipos a un serial de ciclismo",
-    "img": "https://firebasestorage.googleapis.com/v0/b/portafolio-personal-264fb.appspot.com/o/proyectos%2Fcopa-smg.png?alt=media&token=33b7edc2-731b-430e-a034-6c229004c277",
-    "demolink": "https://copasmg.org/",
-    "githubrepo": "",
-    "techlonogy": "https://firebasestorage.googleapis.com/v0/b/portafolio-personal-264fb.appspot.com/o/tecnologias%2Fwordpress.png?alt=media&token=288f794d-adb8-4b08-a5b1-25973d27ec37"
-  },
-  {
     "id": 13,
     "name": "Diagnóstico Dental Digitál",
     "description": "Sitio web informativo con wordpress para una clínica de Rx",
@@ -131,6 +122,15 @@
     "description": "Sitio web informativo con wordpress para una cadena hotelera",
     "img": "https://firebasestorage.googleapis.com/v0/b/portafolio-personal-264fb.appspot.com/o/proyectos%2Fhotel-del-camino-real.png?alt=media&token=3474bb64-750b-4938-9f68-6183900093e9",
     "demolink": "https://hoteldelcaminoreal.com/",
+    "githubrepo": "",
+    "techlonogy": "https://firebasestorage.googleapis.com/v0/b/portafolio-personal-264fb.appspot.com/o/tecnologias%2Fwordpress.png?alt=media&token=288f794d-adb8-4b08-a5b1-25973d27ec37"
+  },
+  {
+    "id": 16,
+    "name": "Bungalows Mirna",
+    "description": "Sitio web informativo con wordpress para un negocio de bungalows",
+    "img": "https://firebasestorage.googleapis.com/v0/b/portafolio-personal-264fb.appspot.com/o/proyectos%2Fbungalowsmirna.png?alt=media&token=ed2a95c9-1fd3-4de8-947d-d1c54cf93b38",
+    "demolink": "https://bungalowsmirnahaciendarobles.com/",
     "githubrepo": "",
     "techlonogy": "https://firebasestorage.googleapis.com/v0/b/portafolio-personal-264fb.appspot.com/o/tecnologias%2Fwordpress.png?alt=media&token=288f794d-adb8-4b08-a5b1-25973d27ec37"
   }

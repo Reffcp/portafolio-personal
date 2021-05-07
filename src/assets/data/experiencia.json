@@ -1,12 +1,47 @@
 [
   {
+    "DES_NOMBRE_EMPRESA": "CheeseOkay Marketplace",
+    "DES_IMG": "https://www.cheeseokay.com/wp-content/uploads/2020/04/logoslogan-05.png",
+    "DES_LUGAR_EMPRESA": "Bogotá, Bogotá, Colombia.",
+    "DES_NOMBRE_PUESTO": "Jefe de Tecnología",
+    "FECHA_INICIO": "Diciembre 2020",
+    "FECHA_FIN": "Actualidad",
+    "DES_PUESTO": "Responsable del desarrollo e implementación tecnológica",
+    "TECNOLOGIAS": [
+      {
+        "DES_NOMBRE": "https://firebasestorage.googleapis.com/v0/b/portafolio-personal-264fb.appspot.com/o/tecnologias%2Fangular.png?alt=media&token=5041b6e6-a0d2-4b4f-85d4-ea89fa65e15c"
+      },
+      {
+        "DES_NOMBRE": "https://firebasestorage.googleapis.com/v0/b/portafolio-personal-264fb.appspot.com/o/tecnologias%2Ftypescript.png?alt=media&token=5d354e51-a1fa-48ba-a23b-a88a057fa97e"
+      },
+      {
+        "DES_NOMBRE": "https://firebasestorage.googleapis.com/v0/b/portafolio-personal-264fb.appspot.com/o/tecnologias%2Fhtml5.png?alt=media&token=b8cd482c-56c0-42c6-8e3f-61bef5acbfba"
+      },
+      {
+        "DES_NOMBRE": "https://firebasestorage.googleapis.com/v0/b/portafolio-personal-264fb.appspot.com/o/tecnologias%2Fcss.png?alt=media&token=032042ec-14b2-4781-b2f5-95312fbd8e6b"
+      },
+      {
+        "DES_NOMBRE": "https://firebasestorage.googleapis.com/v0/b/portafolio-personal-264fb.appspot.com/o/tecnologias%2Fjavascript.png?alt=media&token=d263e1e9-e095-4315-83b5-cfab4aa2a5aa"
+      },
+      {
+        "DES_NOMBRE": "https://firebasestorage.googleapis.com/v0/b/portafolio-personal-264fb.appspot.com/o/tecnologias%2Fnodejs.png?alt=media&token=4d0fb5ba-3c53-4dae-a8aa-1b2d820033b9"
+      },
+      {
+        "DES_NOMBRE": "https://firebasestorage.googleapis.com/v0/b/portafolio-personal-264fb.appspot.com/o/tecnologias%2Fwordpress.png?alt=media&token=86855681-d7e5-4517-9f11-56b17321a485"
+      },
+      {
+        "DES_NOMBRE": "https://firebasestorage.googleapis.com/v0/b/portafolio-personal-264fb.appspot.com/o/tecnologias%2Fmysql.svg?alt=media&token=eaa011b1-8565-40c6-a06f-9cd50a54d5de"
+      }
+    ]
+  },
+  {
     "DES_NOMBRE_EMPRESA": "Solorio Dental",
     "DES_IMG": "https://firebasestorage.googleapis.com/v0/b/portafolio-personal-264fb.appspot.com/o/experiencia%2Fdental-solorio-logo.png?alt=media&token=afa1cae6-5493-4f4b-a006-6c551cbf6285",
-    "DES_LUGAR_EMPRESA": "El Grullo, Jalisco, México.",
+    "DES_LUGAR_EMPRESA": "Autlán de Navarro, Jalisco, México.",
     "DES_NOMBRE_PUESTO": "Full Stack Developer",
     "FECHA_INICIO": "Noviembre 2019",
-    "FECHA_FIN": "Actualidad",
-    "DES_PUESTO": "Ingeniero de software por honorarios apoyando en el desarrollo aplicaciones para control interno",
+    "FECHA_FIN": "Diciembre 2020",
+    "DES_PUESTO": "Ingeniero de software por honorarios apoyando en el desarrollo aplicaciones para control interno y asesorías tecnológicas",
     "TECNOLOGIAS": [
       {
         "DES_NOMBRE": "https://firebasestorage.googleapis.com/v0/b/portafolio-personal-264fb.appspot.com/o/tecnologias%2Fangular.png?alt=media&token=5041b6e6-a0d2-4b4f-85d4-ea89fa65e15c"
@@ -40,7 +75,7 @@
   {
     "DES_NOMBRE_EMPRESA": "Caja SMG",
     "DES_IMG": "https://firebasestorage.googleapis.com/v0/b/portafolio-personal-264fb.appspot.com/o/experiencia%2FSMG-Final.png?alt=media&token=b8589190-b3fb-428d-a672-a139f050844e",
-    "DES_LUGAR_EMPRESA": "Autlán de Navarro, Jalisco, México.",
+    "DES_LUGAR_EMPRESA": "El Grullo, Jalisco, México.",
     "DES_NOMBRE_PUESTO": "Full Stack Developer",
     "FECHA_INICIO": "Julio 2018",
     "FECHA_FIN": "Noviembre 2019",
@@ -79,7 +114,7 @@
     "DES_NOMBRE_PUESTO": "Full Stack Developer",
     "FECHA_INICIO": "Julio 2017",
     "FECHA_FIN": "Junio 2018",
-    "DES_PUESTO": "Desarrollador de software por honorarios en el Centro Universitario de la Costa Sur, apoyando en el desarrollo e indexación del portal principal",
+    "DES_PUESTO": "Desarrollador de software por honorarios en el Centro Universitario de la Costa Sur, apoyando en el desarrollo e indexación del portal principal y otras aplicaciones",
     "TECNOLOGIAS": [
       {
         "DES_NOMBRE": "https://firebasestorage.googleapis.com/v0/b/portafolio-personal-264fb.appspot.com/o/tecnologias%2Fhtml5.png?alt=media&token=b8cd482c-56c0-42c6-8e3f-61bef5acbfba"
@@ -114,28 +149,25 @@
     "DES_NOMBRE_EMPRESA": "Universidad de Guadalajara",
     "DES_IMG": "https://firebasestorage.googleapis.com/v0/b/portafolio-personal-264fb.appspot.com/o/experiencia%2Fudg-logo.png?alt=media&token=74c52fa9-3e80-4ad0-b8ca-8aac32af8ab9",
     "DES_LUGAR_EMPRESA": "Autlán de Navarro, Jalisco, México.",
-    "DES_NOMBRE_PUESTO": "Full Stack Developer",
+    "DES_NOMBRE_PUESTO": "Técnico de redes",
     "FECHA_INICIO": "Junio 2015",
     "FECHA_FIN": "Junio 2017",
-    "DES_PUESTO": "Desarrollador de software por honorarios en el Centro Universitario de la Costa Sur, apoyando en el desarrollo e indexación del portal principal",
+    "DES_PUESTO": "Tecnico de redes y amntenimiento de sistemas de computo",
     "TECNOLOGIAS": [
       {
-        "DES_NOMBRE": "https://firebasestorage.googleapis.com/v0/b/portafolio-personal-264fb.appspot.com/o/tecnologias%2Fhtml5.png?alt=media&token=b8cd482c-56c0-42c6-8e3f-61bef5acbfba"
+        "DES_NOMBRE": "https://firebasestorage.googleapis.com/v0/b/portafolio-personal-264fb.appspot.com/o/tecnologias%2Flogo%20cisco.png?alt=media&token=eda43fd7-1a6e-4d2f-aabe-b25f7650f4ee"
       },
       {
-        "DES_NOMBRE": "https://firebasestorage.googleapis.com/v0/b/portafolio-personal-264fb.appspot.com/o/tecnologias%2Fcss.png?alt=media&token=032042ec-14b2-4781-b2f5-95312fbd8e6b"
+        "DES_NOMBRE": "https://firebasestorage.googleapis.com/v0/b/portafolio-personal-264fb.appspot.com/o/tecnologias%2Fenterasys.gif?alt=media&token=bb2dcf76-b99b-4710-8724-ef2cbffd1c4f"
       },
       {
-        "DES_NOMBRE": "https://firebasestorage.googleapis.com/v0/b/portafolio-personal-264fb.appspot.com/o/tecnologias%2Fjavascript.png?alt=media&token=d263e1e9-e095-4315-83b5-cfab4aa2a5aa"
+        "DES_NOMBRE": "https://firebasestorage.googleapis.com/v0/b/portafolio-personal-264fb.appspot.com/o/tecnologias%2Fwindows-server.png?alt=media&token=5cef8a86-c9da-4bf4-9f1d-1714040bf10e"
       },
       {
-        "DES_NOMBRE": "https://firebasestorage.googleapis.com/v0/b/portafolio-personal-264fb.appspot.com/o/tecnologias%2Fjava.webp?alt=media&token=8eb2f569-534f-4bd6-93a7-d071ae4c0a83"
+        "DES_NOMBRE": "https://firebasestorage.googleapis.com/v0/b/portafolio-personal-264fb.appspot.com/o/tecnologias%2Fcentos.png?alt=media&token=d7c90005-d61b-45ad-9360-98b4fb113452"
       },
       {
-        "DES_NOMBRE": "https://firebasestorage.googleapis.com/v0/b/portafolio-personal-264fb.appspot.com/o/tecnologias%2Fdrupal-logo-f.png?alt=media&token=614abc42-2514-465e-92ae-f501d8461bf4"
-      },
-      {
-        "DES_NOMBRE": "https://firebasestorage.googleapis.com/v0/b/portafolio-personal-264fb.appspot.com/o/tecnologias%2Fmoodle.png?alt=media&token=60a5b113-b590-4206-a2fe-834d2588c560"
+        "DES_NOMBRE": "https://firebasestorage.googleapis.com/v0/b/portafolio-personal-264fb.appspot.com/o/tecnologias%2Ffedora-logo.png?alt=media&token=3b187276-1c72-4a49-ae03-8d28e88b0c07"
       }
     ]
   }
