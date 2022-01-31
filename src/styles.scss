@@ -24,3 +24,6 @@ mat-tab-group, .mat-tab-label-content{
 .mat-tab-header-pagination-disabled  {
     border-color: rgb(255 255 255);
 }
+
+/* Importing Bootstrap SCSS file. */
+@import '~bootstrap/scss/bootstrap';
