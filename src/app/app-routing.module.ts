@@ -14,11 +14,11 @@ const routes: Routes = [
       },
       {
         path: 'inicio',
-        loadChildren: () => import('./inicio/inicio.module').then( (m) => m.InicioModule),
+        loadChildren: () => import('./views/inicio/inicio.module').then( (m) => m.InicioModule),
       },
       {
         path: 'sobre-mi',
-        loadChildren: () => import('./sobre-mi/sobre-mi.module').then( (m) => m.SobreMiModule),
+        loadChildren: () => import('./views/sobre-mi/sobre-mi.module').then( (m) => m.SobreMiModule),
       },
     ],
   }];
