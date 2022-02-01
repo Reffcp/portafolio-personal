@@ -74,7 +74,7 @@
   },
   {
     "DES_NOMBRE_EMPRESA": "Caja SMG",
-    "DES_IMG": "https://firebasestorage.googleapis.com/v0/b/portafolio-personal-264fb.appspot.com/o/experiencia%2FSMG-Final.png?alt=media&token=b8589190-b3fb-428d-a672-a139f050844e",
+    "DES_IMG": "assets/img-experiencia-formal/img-cajasmg.png",
     "DES_LUGAR_EMPRESA": "El Grullo, Jalisco, México.",
     "DES_NOMBRE_PUESTO": "Full Stack Developer",
     "FECHA_INICIO": "Julio 2018",
@@ -109,7 +109,7 @@
   },
   {
     "DES_NOMBRE_EMPRESA": "Universidad de Guadalajara",
-    "DES_IMG": "https://firebasestorage.googleapis.com/v0/b/portafolio-personal-264fb.appspot.com/o/experiencia%2Fudg-logo.png?alt=media&token=74c52fa9-3e80-4ad0-b8ca-8aac32af8ab9",
+    "DES_IMG": "assets/img-experiencia-formal/img-universidadeguadalajara.png",
     "DES_LUGAR_EMPRESA": "Autlán de Navarro, Jalisco, México.",
     "DES_NOMBRE_PUESTO": "Full Stack Developer",
     "FECHA_INICIO": "Julio 2017",
@@ -147,7 +147,7 @@
   },
   {
     "DES_NOMBRE_EMPRESA": "Universidad de Guadalajara",
-    "DES_IMG": "https://firebasestorage.googleapis.com/v0/b/portafolio-personal-264fb.appspot.com/o/experiencia%2Fudg-logo.png?alt=media&token=74c52fa9-3e80-4ad0-b8ca-8aac32af8ab9",
+    "DES_IMG": "assets/img-experiencia-formal/img-universidadeguadalajara.png",
     "DES_LUGAR_EMPRESA": "Autlán de Navarro, Jalisco, México.",
     "DES_NOMBRE_PUESTO": "Técnico de redes",
     "FECHA_INICIO": "Junio 2015",
