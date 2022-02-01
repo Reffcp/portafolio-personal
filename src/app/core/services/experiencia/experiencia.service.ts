@@ -5,10 +5,9 @@ import { Injectable } from '@angular/core';
   providedIn: 'root',
 })
 export class ExperienciaService {
+  constructor(private http: HttpClient) {}
 
-  constructor(private http: HttpClient) { }
-
-  public getExperiencia() {
-    return this.http.get('../../../../assets/data/experiencia.json');
+  public getExperiencia(tipo: string) {
+    return this.http.get('../../../../assets/data/' + tipo + '.json');
   }
 }

@@ -1,0 +1,56 @@
+<ul ngbNav #nav="ngbNav" class="nav-tabs mt-5">
+  <li [ngbNavItem]="1">
+    <a ngbNavLink>Presentación</a>
+    <ng-template ngbNavContent>
+      <section class="main-background">
+        <section class="section1">
+          <h2>Hola, soy</h2>
+          <h1>Cristian Covarrubias</h1>
+          <p>
+            Un full Stack en desarrollo web especializado en frontend con más de
+            9 años de experiencia
+          </p>
+        </section>
+        <section class="section2">
+          <img
+            src="https://firebasestorage.googleapis.com/v0/b/portafolio-personal-264fb.appspot.com/o/background%2Fyo.jpg?alt=media&token=e071cd36-3cf3-4ec7-b3cd-1f41f5927282"
+            alt="imagen de cristian covarrubias"
+          />
+        </section>
+      </section>
+    </ng-template>
+  </li>
+  <li [ngbNavItem]="2">
+    <a ngbNavLink>Experiencia Formal</a>
+    <ng-template ngbNavContent>
+      <section>
+        <app-experiencia [tipoExperiencia]="'formal'"></app-experiencia>
+      </section>
+    </ng-template>
+  </li>
+  <li [ngbNavItem]="3">
+    <a ngbNavLink>Experiencia Freelancer</a>
+    <ng-template ngbNavContent>
+      <section>
+        <app-experiencia tipoExperiencia="freelancer"></app-experiencia>
+      </section>
+    </ng-template>
+  </li>
+  <li [ngbNavItem]="4">
+    <a ngbNavLink>Proyectos Públicos</a>
+    <ng-template ngbNavContent>
+      <section>
+        <app-proyectos></app-proyectos>
+      </section>
+    </ng-template>
+  </li>
+  <li [ngbNavItem]="5">
+    <a ngbNavLink>Asesorías</a>
+    <ng-template ngbNavContent>
+      <section>
+        <app-proyectos></app-proyectos>
+      </section>
+    </ng-template>
+  </li>
+</ul>
+<div [ngbNavOutlet]="nav" class="mt-2"></div>

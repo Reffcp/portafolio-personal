@@ -1,3 +1,4 @@
+import { NgbootstrapModule } from './ngbootstrap/ngbootstrap.module';
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { HeaderComponent } from './components/header/header.component';
@@ -12,10 +13,12 @@ import { RouterModule } from '@angular/router';
   exports: [
     HeaderComponent,
     FooterComponent,
+    NgbootstrapModule
   ],
   imports: [
     CommonModule,
-    RouterModule
+    RouterModule,
+    NgbootstrapModule
   ],
 })
 export class SharedModule { }

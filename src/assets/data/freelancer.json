@@ -1,0 +1,37 @@
+[
+  {
+    "DES_NOMBRE_EMPRESA": "CheeseOkay Marketplace",
+    "DES_IMG": "https://www.cheeseokay.com/wp-content/uploads/2020/04/logoslogan-05.png",
+    "DES_LUGAR_EMPRESA": "Bogotá, Bogotá, Colombia.",
+    "DES_NOMBRE_PUESTO": "Jefe de Tecnología",
+    "FECHA_INICIO": "Diciembre 2020",
+    "FECHA_FIN": "Actualidad",
+    "DES_PUESTO": "Responsable del desarrollo e implementación tecnológica",
+    "TECNOLOGIAS": [
+      {
+        "DES_NOMBRE": "https://firebasestorage.googleapis.com/v0/b/portafolio-personal-264fb.appspot.com/o/tecnologias%2Fangular.png?alt=media&token=5041b6e6-a0d2-4b4f-85d4-ea89fa65e15c"
+      },
+      {
+        "DES_NOMBRE": "https://firebasestorage.googleapis.com/v0/b/portafolio-personal-264fb.appspot.com/o/tecnologias%2Ftypescript.png?alt=media&token=5d354e51-a1fa-48ba-a23b-a88a057fa97e"
+      },
+      {
+        "DES_NOMBRE": "https://firebasestorage.googleapis.com/v0/b/portafolio-personal-264fb.appspot.com/o/tecnologias%2Fhtml5.png?alt=media&token=b8cd482c-56c0-42c6-8e3f-61bef5acbfba"
+      },
+      {
+        "DES_NOMBRE": "https://firebasestorage.googleapis.com/v0/b/portafolio-personal-264fb.appspot.com/o/tecnologias%2Fcss.png?alt=media&token=032042ec-14b2-4781-b2f5-95312fbd8e6b"
+      },
+      {
+        "DES_NOMBRE": "https://firebasestorage.googleapis.com/v0/b/portafolio-personal-264fb.appspot.com/o/tecnologias%2Fjavascript.png?alt=media&token=d263e1e9-e095-4315-83b5-cfab4aa2a5aa"
+      },
+      {
+        "DES_NOMBRE": "https://firebasestorage.googleapis.com/v0/b/portafolio-personal-264fb.appspot.com/o/tecnologias%2Fnodejs.png?alt=media&token=4d0fb5ba-3c53-4dae-a8aa-1b2d820033b9"
+      },
+      {
+        "DES_NOMBRE": "https://firebasestorage.googleapis.com/v0/b/portafolio-personal-264fb.appspot.com/o/tecnologias%2Fwordpress.png?alt=media&token=86855681-d7e5-4517-9f11-56b17321a485"
+      },
+      {
+        "DES_NOMBRE": "https://firebasestorage.googleapis.com/v0/b/portafolio-personal-264fb.appspot.com/o/tecnologias%2Fmysql.svg?alt=media&token=eaa011b1-8565-40c6-a06f-9cd50a54d5de"
+      }
+    ]
+  }
+]
