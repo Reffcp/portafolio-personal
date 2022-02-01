@@ -84,31 +84,6 @@
     ]
   },
   {
-    "id": 8,
-    "name": "Portafolio personal",
-    "description": "No hay mucho que decir, es esta página 😂",
-    "img": "https://firebasestorage.googleapis.com/v0/b/portafolio-personal-264fb.appspot.com/o/proyectos%2Fportafolio-personal.png?alt=media&token=edb90839-4b4f-4c41-a035-902171cc008c",
-    "demolink": "",
-    "githubrepo": "https://github.com/Reffcp/portafolio-personal",
-    "techlonogy": [
-      {
-        "DES_IMG": "assets/logos/angular.png"
-      },
-      {
-        "DES_IMG": "assets/logos/css.png"
-      },
-      {
-        "DES_IMG": "assets/logos/javascript.png"
-      },
-      {
-        "DES_IMG": "assets/logos/html.png"
-      },
-      {
-        "DES_IMG": "assets/logos/typescript.png"
-      }
-    ]
-  },
-  {
     "id": 13,
     "name": "Diagnóstico Dental Digitál",
     "description": "Sitio web informativo con wordpress para una clínica de Rx",
@@ -347,6 +322,90 @@
       },
       {
         "DES_IMG": "assets/logos/elementor.png"
+      }
+    ]
+  },
+  {
+    "id": 21,
+    "name": "Farmacia San Antonio",
+    "description": "Plataforma para registro de ventas en farmacia",
+    "img": "assets/img-experiencia-freelancer/farmaciasanantonio.png",
+    "demolink": "https://farmacia-san-antonio-a.web.app/",
+    "githubrepo": "",
+    "techlonogy": [
+      {
+        "DES_IMG": "assets/logos/angular.png"
+      },
+      {
+        "DES_IMG": "assets/logos/css.png"
+      },
+      {
+        "DES_IMG": "assets/logos/mysql.png"
+      },
+      {
+        "DES_IMG": "assets/logos/nodejs.png"
+      },
+      {
+        "DES_IMG": "assets/logos/javascript.png"
+      },
+      {
+        "DES_IMG": "assets/logos/html.png"
+      }
+    ]
+  },
+  {
+    "id": 22,
+    "name": "Siemprenvia",
+    "description": "Plataforma para registro de gías y seguimiento de paquetes",
+    "img": "assets/img-experiencia-freelancer/siemprenvia.png",
+    "demolink": "https://siemprenvia.com/",
+    "githubrepo": "",
+    "techlonogy": [
+      {
+        "DES_IMG": "assets/logos/wordpress.png"
+      },
+      {
+        "DES_IMG": "assets/logos/css.png"
+      },
+      {
+        "DES_IMG": "assets/logos/mysql.png"
+      },
+      {
+        "DES_IMG": "assets/logos/php.png"
+      },
+      {
+        "DES_IMG": "assets/logos/javascript.png"
+      },
+      {
+        "DES_IMG": "assets/logos/html.png"
+      },
+      {
+        "DES_IMG": "assets/logos/elementor.png"
+      }
+    ]
+  },
+  {
+    "id": 23,
+    "name": "El Caldero",
+    "description": "Punto de venta de escritorio para restaurantes",
+    "img": "assets/img-experiencia-freelancer/elcaldero.png",
+    "demolink": "",
+    "githubrepo": "",
+    "techlonogy": [
+      {
+        "DES_IMG": "assets/logos/java.png"
+      },
+      {
+        "DES_IMG": "assets/logos/mysql.png"
+      },
+      {
+        "DES_IMG": "assets/logos/html.png"
+      },
+      {
+        "DES_IMG": "assets/logos/javaswing.png"
+      },
+      {
+        "DES_IMG": "assets/logos/jasperreports.png"
       }
     ]
   }
