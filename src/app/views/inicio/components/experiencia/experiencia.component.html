@@ -1,13 +1,38 @@
-<div class="main-exp" *ngFor="let experiencia of experiencias">
-  <div class="img-exp">
-    <img [src]="experiencia.DES_IMG">
-  </div>
-  <div class="exp-content">
-    <h2>{{experiencia.DES_NOMBRE_EMPRESA}} | {{experiencia.FECHA_INICIO}}-{{experiencia.FECHA_FIN}}</h2>
-    <span>{{experiencia.DES_NOMBRE_PUESTO}}</span>
-    <p>{{experiencia.DES_PUESTO}}</p>
-    <div class="exp-tecnologias" >
-      <img *ngFor="let tecnologia of experiencia.TECNOLOGIAS" [src]="tecnologia.DES_NOMBRE">
+<div class="container-fluid">
+  <div class="row p-0 justify-content-center">
+    <div
+      class="card col-12 col-md-5 m-1"
+      style="width: auto"
+      *ngFor="let experiencia of experiencias"
+    >
+      <div class="card-header">
+        <img
+          [src]="experiencia.DES_IMG"
+          class="card-img-top m-0 p-3"
+          [alt]="experiencia.DES_NOMBRE_EMPRESA + ' imagen'"
+          style="width: 90%"
+        />
+      </div>
+
+      <div class="card-body">
+        <h5 class="card-title">
+          {{ experiencia.DES_NOMBRE_EMPRESA }} |
+          {{ experiencia.FECHA_INICIO }}-{{ experiencia.FECHA_FIN }}
+        </h5>
+        <p class="card-text">
+          {{ experiencia.DES_NOMBRE_PUESTO }}
+        </p>
+        <p class="card-text">
+          {{ experiencia.DES_PUESTO }}
+        </p>
+      </div>
+      <div class="card-footer row">
+        <img
+          class="col-2"
+          *ngFor="let tecnologia of experiencia.TECNOLOGIAS"
+          [src]="tecnologia.DES_NOMBRE"
+        />
+      </div>
     </div>
   </div>
 </div>

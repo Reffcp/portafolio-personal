@@ -1,7 +1,7 @@
 [
   {
     "DES_NOMBRE_EMPRESA": "CheeseOkay Marketplace",
-    "DES_IMG": "https://www.cheeseokay.com/wp-content/uploads/2020/04/logoslogan-05.png",
+    "DES_IMG": "assets/img-experiencia-formal/img-cheeseokay.png",
     "DES_LUGAR_EMPRESA": "Bogotá, Bogotá, Colombia.",
     "DES_NOMBRE_PUESTO": "Jefe de Tecnología",
     "FECHA_INICIO": "Diciembre 2020",
@@ -36,7 +36,7 @@
   },
   {
     "DES_NOMBRE_EMPRESA": "Solorio Dental",
-    "DES_IMG": "https://firebasestorage.googleapis.com/v0/b/portafolio-personal-264fb.appspot.com/o/experiencia%2Fdental-solorio-logo.png?alt=media&token=afa1cae6-5493-4f4b-a006-6c551cbf6285",
+    "DES_IMG": "assets/img-experiencia-formal/img-soloriodental.png",
     "DES_LUGAR_EMPRESA": "Autlán de Navarro, Jalisco, México.",
     "DES_NOMBRE_PUESTO": "Full Stack Developer",
     "FECHA_INICIO": "Noviembre 2019",
