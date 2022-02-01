@@ -6,7 +6,11 @@
     "img": "https://firebasestorage.googleapis.com/v0/b/portafolio-personal-264fb.appspot.com/o/proyectos%2F100tifico.png?alt=media&token=086d1246-4769-408c-bc1b-b6d7f3d31ec5",
     "demolink": "https://reffcp.github.io/100tifico/",
     "githubrepo": "https://github.com/Reffcp/100tifico",
-    "techlonogy": "https://firebasestorage.googleapis.com/v0/b/portafolio-personal-264fb.appspot.com/o/tecnologias%2Fjavascript.png?alt=media&token=d263e1e9-e095-4315-83b5-cfab4aa2a5aa"
+    "techlonogy": [
+      {
+        "DES_IMG": "https://firebasestorage.googleapis.com/v0/b/portafolio-personal-264fb.appspot.com/o/tecnologias%2Fjavascript.png?alt=media&token=d263e1e9-e095-4315-83b5-cfab4aa2a5aa"
+      }
+    ]
   },
   {
     "id": 2,
@@ -15,7 +19,11 @@
     "img": "https://firebasestorage.googleapis.com/v0/b/portafolio-personal-264fb.appspot.com/o/proyectos%2Fclone-google.png?alt=media&token=ff570e44-21f7-4ee5-baef-e2b2a6691e9d",
     "demolink": "https://reffcp.github.io/clone-front-google/",
     "githubrepo": "https://github.com/Reffcp/clone-front-google",
-    "techlonogy": "https://firebasestorage.googleapis.com/v0/b/portafolio-personal-264fb.appspot.com/o/tecnologias%2Fcss.png?alt=media&token=032042ec-14b2-4781-b2f5-95312fbd8e6b"
+    "techlonogy": [
+      {
+        "DES_IMG": "https://firebasestorage.googleapis.com/v0/b/portafolio-personal-264fb.appspot.com/o/tecnologias%2Fjavascript.png?alt=media&token=d263e1e9-e095-4315-83b5-cfab4aa2a5aa"
+      }
+    ]
   },
   {
     "id": 3,
@@ -24,7 +32,11 @@
     "img": "https://firebasestorage.googleapis.com/v0/b/portafolio-personal-264fb.appspot.com/o/proyectos%2Fmoodle-cucsur.png?alt=media&token=a941d683-2360-4e3e-a5e5-9198c05a4007",
     "demolink": "http://moodle.cucostasur.udg.mx/moodle3/",
     "githubrepo": "",
-    "techlonogy": "https://firebasestorage.googleapis.com/v0/b/portafolio-personal-264fb.appspot.com/o/tecnologias%2Fmoodle.png?alt=media&token=60a5b113-b590-4206-a2fe-834d2588c560"
+    "techlonogy": [
+      {
+        "DES_IMG": "https://firebasestorage.googleapis.com/v0/b/portafolio-personal-264fb.appspot.com/o/tecnologias%2Fjavascript.png?alt=media&token=d263e1e9-e095-4315-83b5-cfab4aa2a5aa"
+      }
+    ]
   },
   {
     "id": 4,
@@ -33,7 +45,11 @@
     "img": "https://firebasestorage.googleapis.com/v0/b/portafolio-personal-264fb.appspot.com/o/proyectos%2Fproyecto-3.png?alt=media&token=ddffd27e-f557-4413-a04c-4ff90f43faef",
     "demolink": "http://dentalsolorio.com/",
     "githubrepo": "",
-    "techlonogy": "https://firebasestorage.googleapis.com/v0/b/portafolio-personal-264fb.appspot.com/o/tecnologias%2Fwordpress.png?alt=media&token=288f794d-adb8-4b08-a5b1-25973d27ec37"
+    "techlonogy": [
+      {
+        "DES_IMG": "https://firebasestorage.googleapis.com/v0/b/portafolio-personal-264fb.appspot.com/o/tecnologias%2Fjavascript.png?alt=media&token=d263e1e9-e095-4315-83b5-cfab4aa2a5aa"
+      }
+    ]
   },
   {
     "id": 5,
@@ -42,7 +58,11 @@
     "img": "https://firebasestorage.googleapis.com/v0/b/portafolio-personal-264fb.appspot.com/o/proyectos%2Fproyecto-1.png?alt=media&token=58c43a1d-2ee5-4435-a424-c5a470b7ad54",
     "demolink": "https://vicaamanoslatinas.com/",
     "githubrepo": "",
-    "techlonogy": "https://firebasestorage.googleapis.com/v0/b/portafolio-personal-264fb.appspot.com/o/tecnologias%2Fwordpress.png?alt=media&token=288f794d-adb8-4b08-a5b1-25973d27ec37"
+    "techlonogy": [
+      {
+        "DES_IMG": "https://firebasestorage.googleapis.com/v0/b/portafolio-personal-264fb.appspot.com/o/tecnologias%2Fjavascript.png?alt=media&token=d263e1e9-e095-4315-83b5-cfab4aa2a5aa"
+      }
+    ]
   },
   {
     "id": 6,
@@ -51,7 +71,11 @@
     "img": "https://firebasestorage.googleapis.com/v0/b/portafolio-personal-264fb.appspot.com/o/proyectos%2Fproyecto-2.png?alt=media&token=ec63df39-e657-4689-8326-7ada07ef764b",
     "demolink": "https://www.rebits.com.mx/",
     "githubrepo": "",
-    "techlonogy": "https://firebasestorage.googleapis.com/v0/b/portafolio-personal-264fb.appspot.com/o/tecnologias%2Fwordpress.png?alt=media&token=288f794d-adb8-4b08-a5b1-25973d27ec37"
+    "techlonogy": [
+      {
+        "DES_IMG": "https://firebasestorage.googleapis.com/v0/b/portafolio-personal-264fb.appspot.com/o/tecnologias%2Fjavascript.png?alt=media&token=d263e1e9-e095-4315-83b5-cfab4aa2a5aa"
+      }
+    ]
   },
   {
     "id": 7,
@@ -60,7 +84,11 @@
     "img": "https://firebasestorage.googleapis.com/v0/b/portafolio-personal-264fb.appspot.com/o/proyectos%2Frick-and-morty.png?alt=media&token=ef664cf6-9025-4d4d-9b42-195ab8634ca3",
     "demolink": "https://rick-and-morty-angular.web.app/inicio",
     "githubrepo": "https://github.com/Reffcp/rick-and-morty-angular",
-    "techlonogy": "https://firebasestorage.googleapis.com/v0/b/portafolio-personal-264fb.appspot.com/o/tecnologias%2Fangular.png?alt=media&token=5041b6e6-a0d2-4b4f-85d4-ea89fa65e15c"
+    "techlonogy": [
+      {
+        "DES_IMG": "https://firebasestorage.googleapis.com/v0/b/portafolio-personal-264fb.appspot.com/o/tecnologias%2Fjavascript.png?alt=media&token=d263e1e9-e095-4315-83b5-cfab4aa2a5aa"
+      }
+    ]
   },
   {
     "id": 8,
@@ -69,7 +97,11 @@
     "img": "https://firebasestorage.googleapis.com/v0/b/portafolio-personal-264fb.appspot.com/o/proyectos%2Fportafolio-personal.png?alt=media&token=edb90839-4b4f-4c41-a035-902171cc008c",
     "demolink": "",
     "githubrepo": "https://github.com/Reffcp/portafolio-personal",
-    "techlonogy": "https://firebasestorage.googleapis.com/v0/b/portafolio-personal-264fb.appspot.com/o/tecnologias%2Fangular.png?alt=media&token=5041b6e6-a0d2-4b4f-85d4-ea89fa65e15c"
+    "techlonogy": [
+      {
+        "DES_IMG": "https://firebasestorage.googleapis.com/v0/b/portafolio-personal-264fb.appspot.com/o/tecnologias%2Fjavascript.png?alt=media&token=d263e1e9-e095-4315-83b5-cfab4aa2a5aa"
+      }
+    ]
   },
   {
     "id": 9,
@@ -78,7 +110,11 @@
     "img": "https://firebasestorage.googleapis.com/v0/b/portafolio-personal-264fb.appspot.com/o/proyectos%2Fproceso-dise%C3%B1o.png?alt=media&token=77086b0d-9511-4185-a785-6dab0887083e",
     "demolink": "",
     "githubrepo": "https://github.com/Reffcp/proceso-dise-o",
-    "techlonogy": "https://firebasestorage.googleapis.com/v0/b/portafolio-personal-264fb.appspot.com/o/tecnologias%2Fadobe-xd.svg?alt=media&token=5718b33e-8eb7-467e-8e21-bd52be78b861"
+    "techlonogy": [
+      {
+        "DES_IMG": "https://firebasestorage.googleapis.com/v0/b/portafolio-personal-264fb.appspot.com/o/tecnologias%2Fjavascript.png?alt=media&token=d263e1e9-e095-4315-83b5-cfab4aa2a5aa"
+      }
+    ]
   },
   {
     "id": 10,
@@ -87,7 +123,11 @@
     "img": "https://firebasestorage.googleapis.com/v0/b/portafolio-personal-264fb.appspot.com/o/proyectos%2Freto-mi-aguila.png?alt=media&token=7deade2a-60f7-41ba-ab90-88a307b9304c",
     "demolink": "https://reto-mi-aguila.web.app/",
     "githubrepo": "https://github.com/Reffcp/reto-mi-aguila",
-    "techlonogy": "https://firebasestorage.googleapis.com/v0/b/portafolio-personal-264fb.appspot.com/o/tecnologias%2Fangular.png?alt=media&token=5041b6e6-a0d2-4b4f-85d4-ea89fa65e15c"
+    "techlonogy": [
+      {
+        "DES_IMG": "https://firebasestorage.googleapis.com/v0/b/portafolio-personal-264fb.appspot.com/o/tecnologias%2Fjavascript.png?alt=media&token=d263e1e9-e095-4315-83b5-cfab4aa2a5aa"
+      }
+    ]
   },
   {
     "id": 11,
@@ -96,7 +136,11 @@
     "img": "https://firebasestorage.googleapis.com/v0/b/portafolio-personal-264fb.appspot.com/o/proyectos%2Ftypescript-con-angular.png?alt=media&token=88f7ab6d-d722-40d9-bcb3-d31d5cc34927",
     "demolink": "",
     "githubrepo": "https://github.com/Reffcp/typescript-con-angular",
-    "techlonogy": "https://firebasestorage.googleapis.com/v0/b/portafolio-personal-264fb.appspot.com/o/tecnologias%2Fangular.png?alt=media&token=5041b6e6-a0d2-4b4f-85d4-ea89fa65e15c"
+    "techlonogy": [
+      {
+        "DES_IMG": "https://firebasestorage.googleapis.com/v0/b/portafolio-personal-264fb.appspot.com/o/tecnologias%2Fjavascript.png?alt=media&token=d263e1e9-e095-4315-83b5-cfab4aa2a5aa"
+      }
+    ]
   },
   {
     "id": 13,
@@ -105,7 +149,11 @@
     "img": "https://firebasestorage.googleapis.com/v0/b/portafolio-personal-264fb.appspot.com/o/proyectos%2Fdiagnostico-dental-digital.png?alt=media&token=a8ead318-04e8-4f0a-a3fd-9c3780cb1fcc",
     "demolink": "http://diagnosticodentaldigital.mx/",
     "githubrepo": "",
-    "techlonogy": "https://firebasestorage.googleapis.com/v0/b/portafolio-personal-264fb.appspot.com/o/tecnologias%2Fwordpress.png?alt=media&token=288f794d-adb8-4b08-a5b1-25973d27ec37"
+    "techlonogy": [
+      {
+        "DES_IMG": "https://firebasestorage.googleapis.com/v0/b/portafolio-personal-264fb.appspot.com/o/tecnologias%2Fjavascript.png?alt=media&token=d263e1e9-e095-4315-83b5-cfab4aa2a5aa"
+      }
+    ]
   },
   {
     "id": 14,
@@ -114,7 +162,11 @@
     "img": "https://firebasestorage.googleapis.com/v0/b/portafolio-personal-264fb.appspot.com/o/proyectos%2Fdiagnostico-dental-digital-cloud.png?alt=media&token=0b9e16db-76a8-41fb-8641-ef5ef69daf9e",
     "demolink": "http://diagnosticodentaldigital.mx/owncloud",
     "githubrepo": "",
-    "techlonogy": "https://firebasestorage.googleapis.com/v0/b/portafolio-personal-264fb.appspot.com/o/tecnologias%2Fowncloud-logo.png?alt=media&token=b361631d-b31f-4d25-85c9-45ee26d0fcb4"
+    "techlonogy": [
+      {
+        "DES_IMG": "https://firebasestorage.googleapis.com/v0/b/portafolio-personal-264fb.appspot.com/o/tecnologias%2Fjavascript.png?alt=media&token=d263e1e9-e095-4315-83b5-cfab4aa2a5aa"
+      }
+    ]
   },
   {
     "id": 15,
@@ -123,7 +175,11 @@
     "img": "https://firebasestorage.googleapis.com/v0/b/portafolio-personal-264fb.appspot.com/o/proyectos%2Fhotel-del-camino-real.png?alt=media&token=3474bb64-750b-4938-9f68-6183900093e9",
     "demolink": "https://hoteldelcaminoreal.com/",
     "githubrepo": "",
-    "techlonogy": "https://firebasestorage.googleapis.com/v0/b/portafolio-personal-264fb.appspot.com/o/tecnologias%2Fwordpress.png?alt=media&token=288f794d-adb8-4b08-a5b1-25973d27ec37"
+    "techlonogy": [
+      {
+        "DES_IMG": "https://firebasestorage.googleapis.com/v0/b/portafolio-personal-264fb.appspot.com/o/tecnologias%2Fjavascript.png?alt=media&token=d263e1e9-e095-4315-83b5-cfab4aa2a5aa"
+      }
+    ]
   },
   {
     "id": 16,
@@ -132,6 +188,10 @@
     "img": "https://firebasestorage.googleapis.com/v0/b/portafolio-personal-264fb.appspot.com/o/proyectos%2Fbungalowsmirna.png?alt=media&token=ed2a95c9-1fd3-4de8-947d-d1c54cf93b38",
     "demolink": "https://bungalowsmirnahaciendarobles.com/",
     "githubrepo": "",
-    "techlonogy": "https://firebasestorage.googleapis.com/v0/b/portafolio-personal-264fb.appspot.com/o/tecnologias%2Fwordpress.png?alt=media&token=288f794d-adb8-4b08-a5b1-25973d27ec37"
+    "techlonogy": [
+      {
+        "DES_IMG": "https://firebasestorage.googleapis.com/v0/b/portafolio-personal-264fb.appspot.com/o/tecnologias%2Fjavascript.png?alt=media&token=d263e1e9-e095-4315-83b5-cfab4aa2a5aa"
+      }
+    ]
   }
 ]

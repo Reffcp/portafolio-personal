@@ -1,0 +1,353 @@
+[
+  {
+    "id": 3,
+    "name": "Moodle CUCSUR",
+    "description": "LMS para un Centro Univarsitario de la Univarsidad de Guadalajara.",
+    "img": "https://firebasestorage.googleapis.com/v0/b/portafolio-personal-264fb.appspot.com/o/proyectos%2Fmoodle-cucsur.png?alt=media&token=a941d683-2360-4e3e-a5e5-9198c05a4007",
+    "demolink": "http://moodle.cucostasur.udg.mx/moodle3/",
+    "githubrepo": "",
+    "techlonogy": [
+      {
+        "DES_IMG": "assets/logos/moodle.png"
+      },
+      {
+        "DES_IMG": "assets/logos/css.png"
+      },
+      {
+        "DES_IMG": "assets/logos/mysql.png"
+      },
+      {
+        "DES_IMG": "assets/logos/php.png"
+      },
+      {
+        "DES_IMG": "assets/logos/javascript.png"
+      },
+      {
+        "DES_IMG": "assets/logos/html.png"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "name": "VICAA Manos Latinas",
+    "description": "Tienda en línea con WordPress para tienda de artesanías en Autlán de Navarro, Jalisco, México.",
+    "img": "https://firebasestorage.googleapis.com/v0/b/portafolio-personal-264fb.appspot.com/o/proyectos%2Fproyecto-1.png?alt=media&token=58c43a1d-2ee5-4435-a424-c5a470b7ad54",
+    "demolink": "https://vicaamanoslatinas.com/",
+    "githubrepo": "",
+    "techlonogy": [
+      {
+        "DES_IMG": "assets/logos/wordpress.png"
+      },
+      {
+        "DES_IMG": "assets/logos/css.png"
+      },
+      {
+        "DES_IMG": "assets/logos/mysql.png"
+      },
+      {
+        "DES_IMG": "assets/logos/php.png"
+      },
+      {
+        "DES_IMG": "assets/logos/javascript.png"
+      },
+      {
+        "DES_IMG": "assets/logos/html.png"
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "name": "Rebits MX",
+    "description": "Sitio web realizado con WordPress para emprendimiento propio en Autlán de Navarro, Jalisco, México.",
+    "img": "https://firebasestorage.googleapis.com/v0/b/portafolio-personal-264fb.appspot.com/o/proyectos%2Fproyecto-2.png?alt=media&token=ec63df39-e657-4689-8326-7ada07ef764b",
+    "demolink": "https://www.rebits.com.mx/",
+    "githubrepo": "",
+    "techlonogy": [
+      {
+        "DES_IMG": "assets/logos/wordpress.png"
+      },
+      {
+        "DES_IMG": "assets/logos/css.png"
+      },
+      {
+        "DES_IMG": "assets/logos/mysql.png"
+      },
+      {
+        "DES_IMG": "assets/logos/php.png"
+      },
+      {
+        "DES_IMG": "assets/logos/javascript.png"
+      },
+      {
+        "DES_IMG": "assets/logos/html.png"
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "name": "Portafolio personal",
+    "description": "No hay mucho que decir, es esta página 😂",
+    "img": "https://firebasestorage.googleapis.com/v0/b/portafolio-personal-264fb.appspot.com/o/proyectos%2Fportafolio-personal.png?alt=media&token=edb90839-4b4f-4c41-a035-902171cc008c",
+    "demolink": "",
+    "githubrepo": "https://github.com/Reffcp/portafolio-personal",
+    "techlonogy": [
+      {
+        "DES_IMG": "assets/logos/angular.png"
+      },
+      {
+        "DES_IMG": "assets/logos/css.png"
+      },
+      {
+        "DES_IMG": "assets/logos/javascript.png"
+      },
+      {
+        "DES_IMG": "assets/logos/html.png"
+      },
+      {
+        "DES_IMG": "assets/logos/typescript.png"
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "name": "Diagnóstico Dental Digitál",
+    "description": "Sitio web informativo con wordpress para una clínica de Rx",
+    "img": "https://firebasestorage.googleapis.com/v0/b/portafolio-personal-264fb.appspot.com/o/proyectos%2Fdiagnostico-dental-digital.png?alt=media&token=a8ead318-04e8-4f0a-a3fd-9c3780cb1fcc",
+    "demolink": "http://diagnosticodentaldigital.mx/",
+    "githubrepo": "",
+    "techlonogy": [
+      {
+        "DES_IMG": "assets/logos/wordpress.png"
+      },
+      {
+        "DES_IMG": "assets/logos/css.png"
+      },
+      {
+        "DES_IMG": "assets/logos/mysql.png"
+      },
+      {
+        "DES_IMG": "assets/logos/php.png"
+      },
+      {
+        "DES_IMG": "assets/logos/javascript.png"
+      },
+      {
+        "DES_IMG": "assets/logos/html.png"
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "name": "Diagnóstico Dental Digitál Cloud",
+    "description": "Plataforma de cloud con OwnCloud para una clínica de Rx",
+    "img": "https://firebasestorage.googleapis.com/v0/b/portafolio-personal-264fb.appspot.com/o/proyectos%2Fdiagnostico-dental-digital-cloud.png?alt=media&token=0b9e16db-76a8-41fb-8641-ef5ef69daf9e",
+    "demolink": "http://diagnosticodentaldigital.mx/owncloud",
+    "githubrepo": "",
+    "techlonogy": [
+      {
+        "DES_IMG": "assets/logos/owncloud.png"
+      },
+      {
+        "DES_IMG": "assets/logos/css.png"
+      },
+      {
+        "DES_IMG": "assets/logos/mysql.png"
+      },
+      {
+        "DES_IMG": "assets/logos/php.png"
+      },
+      {
+        "DES_IMG": "assets/logos/javascript.png"
+      },
+      {
+        "DES_IMG": "assets/logos/html.png"
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "name": "Hotel de Camino Real",
+    "description": "Sitio web informativo con wordpress para una cadena hotelera",
+    "img": "https://firebasestorage.googleapis.com/v0/b/portafolio-personal-264fb.appspot.com/o/proyectos%2Fhotel-del-camino-real.png?alt=media&token=3474bb64-750b-4938-9f68-6183900093e9",
+    "demolink": "https://hoteldelcaminoreal.com/",
+    "githubrepo": "",
+    "techlonogy": [
+      {
+        "DES_IMG": "assets/logos/wordpress.png"
+      },
+      {
+        "DES_IMG": "assets/logos/css.png"
+      },
+      {
+        "DES_IMG": "assets/logos/mysql.png"
+      },
+      {
+        "DES_IMG": "assets/logos/php.png"
+      },
+      {
+        "DES_IMG": "assets/logos/javascript.png"
+      },
+      {
+        "DES_IMG": "assets/logos/html.png"
+      },
+      {
+        "DES_IMG": "assets/logos/elementor.png"
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "name": "Bungalows Mirna",
+    "description": "Sitio web informativo con wordpress para un negocio de bungalows",
+    "img": "https://firebasestorage.googleapis.com/v0/b/portafolio-personal-264fb.appspot.com/o/proyectos%2Fbungalowsmirna.png?alt=media&token=ed2a95c9-1fd3-4de8-947d-d1c54cf93b38",
+    "demolink": "https://bungalowsmirnahaciendarobles.com/",
+    "githubrepo": "",
+    "techlonogy": [
+      {
+        "DES_IMG": "assets/logos/wordpress.png"
+      },
+      {
+        "DES_IMG": "assets/logos/css.png"
+      },
+      {
+        "DES_IMG": "assets/logos/mysql.png"
+      },
+      {
+        "DES_IMG": "assets/logos/php.png"
+      },
+      {
+        "DES_IMG": "assets/logos/javascript.png"
+      },
+      {
+        "DES_IMG": "assets/logos/html.png"
+      },
+      {
+        "DES_IMG": "assets/logos/elementor.png"
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "name": "Dianas Angels",
+    "description": "Sitio web informativo con wordpress para una asociación de beneficiencia en USA",
+    "img": "assets/img-experiencia-freelancer/dianasangels.png",
+    "demolink": "https://dianasangels.com/",
+    "githubrepo": "",
+    "techlonogy": [
+      {
+        "DES_IMG": "assets/logos/wordpress.png"
+      },
+      {
+        "DES_IMG": "assets/logos/css.png"
+      },
+      {
+        "DES_IMG": "assets/logos/mysql.png"
+      },
+      {
+        "DES_IMG": "assets/logos/php.png"
+      },
+      {
+        "DES_IMG": "assets/logos/javascript.png"
+      },
+      {
+        "DES_IMG": "assets/logos/html.png"
+      },
+      {
+        "DES_IMG": "assets/logos/elementor.png"
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "name": "El Dorado Banquet",
+    "description": "Sitio web informativo con wordpress para un negocio de banquetes en USA",
+    "img": "assets/img-experiencia-freelancer/eldoradobanquetlv.png",
+    "demolink": "https://eldoradobanquetlv.com/",
+    "githubrepo": "",
+    "techlonogy": [
+      {
+        "DES_IMG": "assets/logos/wordpress.png"
+      },
+      {
+        "DES_IMG": "assets/logos/css.png"
+      },
+      {
+        "DES_IMG": "assets/logos/mysql.png"
+      },
+      {
+        "DES_IMG": "assets/logos/php.png"
+      },
+      {
+        "DES_IMG": "assets/logos/javascript.png"
+      },
+      {
+        "DES_IMG": "assets/logos/html.png"
+      },
+      {
+        "DES_IMG": "assets/logos/elementor.png"
+      }
+    ]
+  },
+  {
+    "id": 19,
+    "name": "Keep It Right Asphalt",
+    "description": "Sitio web informativo con wordpress para un negocio de mantenimiento de asfalto en USA",
+    "img": "assets/img-experiencia-freelancer/keepitrightasphalt.png",
+    "demolink": "https://keepitrightasphalt.com/",
+    "githubrepo": "",
+    "techlonogy": [
+      {
+        "DES_IMG": "assets/logos/wordpress.png"
+      },
+      {
+        "DES_IMG": "assets/logos/css.png"
+      },
+      {
+        "DES_IMG": "assets/logos/mysql.png"
+      },
+      {
+        "DES_IMG": "assets/logos/php.png"
+      },
+      {
+        "DES_IMG": "assets/logos/javascript.png"
+      },
+      {
+        "DES_IMG": "assets/logos/html.png"
+      },
+      {
+        "DES_IMG": "assets/logos/elementor.png"
+      }
+    ]
+  },
+  {
+    "id": 20,
+    "name": "Yalina Photography",
+    "description": "Sitio web informativo con wordpress para una fotógrafa en USA",
+    "img": "assets/img-experiencia-freelancer/yalinphotography.png",
+    "demolink": "http://yalinphotography.com/",
+    "githubrepo": "",
+    "techlonogy": [
+      {
+        "DES_IMG": "assets/logos/wordpress.png"
+      },
+      {
+        "DES_IMG": "assets/logos/css.png"
+      },
+      {
+        "DES_IMG": "assets/logos/mysql.png"
+      },
+      {
+        "DES_IMG": "assets/logos/php.png"
+      },
+      {
+        "DES_IMG": "assets/logos/javascript.png"
+      },
+      {
+        "DES_IMG": "assets/logos/html.png"
+      },
+      {
+        "DES_IMG": "assets/logos/elementor.png"
+      }
+    ]
+  }
+]

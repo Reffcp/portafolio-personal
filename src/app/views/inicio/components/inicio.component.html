@@ -1,4 +1,4 @@
-<ul ngbNav #nav="ngbNav" class="nav-tabs mt-5">
+<ul ngbNav #nav="ngbNav" [activeId]="3" class="nav-tabs mt-5">
   <li [ngbNavItem]="1">
     <a ngbNavLink>Presentación</a>
     <ng-template ngbNavContent>
@@ -7,7 +7,7 @@
           <h2>Hola, soy</h2>
           <h1>Cristian Covarrubias</h1>
           <p>
-            Un full Stack en desarrollo web especializado en frontend con más de
+            Un full Stack en desarrollo web con más de
             9 años de experiencia
           </p>
         </section>
@@ -24,7 +24,7 @@
     <a ngbNavLink>Experiencia Formal</a>
     <ng-template ngbNavContent>
       <section>
-        <app-experiencia [tipoExperiencia]="'formal'"></app-experiencia>
+        <app-experiencia></app-experiencia>
       </section>
     </ng-template>
   </li>
@@ -32,7 +32,7 @@
     <a ngbNavLink>Experiencia Freelancer</a>
     <ng-template ngbNavContent>
       <section>
-        <app-experiencia tipoExperiencia="freelancer"></app-experiencia>
+        <app-proyectos tipoProyectos="freelancer"></app-proyectos>
       </section>
     </ng-template>
   </li>

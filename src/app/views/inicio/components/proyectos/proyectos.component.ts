@@ -1,5 +1,5 @@
 import { IProyecto } from './../../../../core/models/proyecto.model';
-import { Component, OnInit } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
 import { ProyectosService } from 'src/app/core/services/proyectos/proyectos.service';
 
 @Component({
@@ -8,22 +8,17 @@ import { ProyectosService } from 'src/app/core/services/proyectos/proyectos.serv
   styleUrls: ['./proyectos.component.scss'],
 })
 export class ProyectosComponent implements OnInit {
-  public proyectos: IProyecto[] = [
-    {
-        id: '',
-        name: '',
-        description: '',
-        img: '',
-        demolink: '',
-        githubrepo: '',
-        techlonogy: '',
-    }];
+
+  @Input() tipoProyectos : string = '';
+
+  public proyectos: IProyecto[] = [];
   constructor(private projectService: ProyectosService) { }
 
   public ngOnInit(): void {
-    this.projectService.getProjects()
+    this.projectService.getProjects(this.tipoProyectos)
     .subscribe((res: IProyecto[]) => {
       this.proyectos = res;
+      this.proyectos.reverse();
     });
   }
 

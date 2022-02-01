@@ -8,13 +8,12 @@ import { ExperienciaService } from 'src/app/core/services/experiencia/experienci
   styleUrls: ['./experiencia.component.scss'],
 })
 export class ExperienciaComponent implements OnInit {
-  @Input() tipoExperiencia = 'formal';
 
   public experiencias: IExperiencia[];
   constructor(private experienciaService: ExperienciaService) { }
 
   public ngOnInit() {
-    this.experienciaService.getExperiencia(this.tipoExperiencia)
+    this.experienciaService.getExperiencia()
     .subscribe((res: IExperiencia[]) => {
       this.experiencias = res;
     });

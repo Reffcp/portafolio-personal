@@ -5,10 +5,13 @@ import { Injectable } from '@angular/core';
   providedIn: 'root',
 })
 export class ProyectosService {
+  constructor(private http: HttpClient) {}
 
-  constructor(private http: HttpClient) { }
-
-  public getProjects() {
-    return this.http.get('../../../../assets/data/proyectos.json');
+  public getProjects(tipo: string) {
+    return this.http.get(
+      '../../../../assets/data/proyectos'
+      + ((tipo == '') ? '' : '-' + tipo)
+      + '.json'
+    );
   }
 }

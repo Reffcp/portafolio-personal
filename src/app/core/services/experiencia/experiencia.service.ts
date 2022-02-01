@@ -7,7 +7,7 @@ import { Injectable } from '@angular/core';
 export class ExperienciaService {
   constructor(private http: HttpClient) {}
 
-  public getExperiencia(tipo: string) {
-    return this.http.get('../../../../assets/data/' + tipo + '.json');
+  public getExperiencia() {
+    return this.http.get('../../../../assets/data/formal.json');
   }
 }
