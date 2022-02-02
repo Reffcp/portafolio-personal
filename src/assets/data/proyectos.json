@@ -8,7 +8,19 @@
     "githubrepo": "https://github.com/Reffcp/100tifico",
     "techlonogy": [
       {
-        "DES_IMG": "https://firebasestorage.googleapis.com/v0/b/portafolio-personal-264fb.appspot.com/o/tecnologias%2Fjavascript.png?alt=media&token=d263e1e9-e095-4315-83b5-cfab4aa2a5aa"
+        "DES_IMG": "assets/logos/nodejs.png"
+      },
+      {
+        "DES_IMG": "assets/logos/javascript.png"
+      },
+      {
+        "DES_IMG": "assets/logos/css.png"
+      },
+      {
+        "DES_IMG": "assets/logos/webpack.png"
+      },
+      {
+        "DES_IMG": "assets/logos/html.png"
       }
     ]
   },
@@ -21,59 +33,13 @@
     "githubrepo": "https://github.com/Reffcp/clone-front-google",
     "techlonogy": [
       {
-        "DES_IMG": "https://firebasestorage.googleapis.com/v0/b/portafolio-personal-264fb.appspot.com/o/tecnologias%2Fjavascript.png?alt=media&token=d263e1e9-e095-4315-83b5-cfab4aa2a5aa"
-      }
-    ]
-  },
-  {
-    "id": 3,
-    "name": "Moodle CUCSUR",
-    "description": "LMS para un Centro Univarsitario de la Univarsidad de Guadalajara.",
-    "img": "https://firebasestorage.googleapis.com/v0/b/portafolio-personal-264fb.appspot.com/o/proyectos%2Fmoodle-cucsur.png?alt=media&token=a941d683-2360-4e3e-a5e5-9198c05a4007",
-    "demolink": "http://moodle.cucostasur.udg.mx/moodle3/",
-    "githubrepo": "",
-    "techlonogy": [
+        "DES_IMG": "assets/logos/html.png"
+      },
       {
-        "DES_IMG": "https://firebasestorage.googleapis.com/v0/b/portafolio-personal-264fb.appspot.com/o/tecnologias%2Fjavascript.png?alt=media&token=d263e1e9-e095-4315-83b5-cfab4aa2a5aa"
-      }
-    ]
-  },
-  {
-    "id": 4,
-    "name": "Solorio Dental",
-    "description": "Sitio web realizado con WordPress para clínica dental en Autlán de Navarro, Jalisco, México.",
-    "img": "https://firebasestorage.googleapis.com/v0/b/portafolio-personal-264fb.appspot.com/o/proyectos%2Fproyecto-3.png?alt=media&token=ddffd27e-f557-4413-a04c-4ff90f43faef",
-    "demolink": "http://dentalsolorio.com/",
-    "githubrepo": "",
-    "techlonogy": [
+        "DES_IMG": "assets/logos/css.png"
+      },
       {
-        "DES_IMG": "https://firebasestorage.googleapis.com/v0/b/portafolio-personal-264fb.appspot.com/o/tecnologias%2Fjavascript.png?alt=media&token=d263e1e9-e095-4315-83b5-cfab4aa2a5aa"
-      }
-    ]
-  },
-  {
-    "id": 5,
-    "name": "VICAA Manos Latinas",
-    "description": "Tienda en línea con WordPress para tienda de artesanías en Autlán de Navarro, Jalisco, México.",
-    "img": "https://firebasestorage.googleapis.com/v0/b/portafolio-personal-264fb.appspot.com/o/proyectos%2Fproyecto-1.png?alt=media&token=58c43a1d-2ee5-4435-a424-c5a470b7ad54",
-    "demolink": "https://vicaamanoslatinas.com/",
-    "githubrepo": "",
-    "techlonogy": [
-      {
-        "DES_IMG": "https://firebasestorage.googleapis.com/v0/b/portafolio-personal-264fb.appspot.com/o/tecnologias%2Fjavascript.png?alt=media&token=d263e1e9-e095-4315-83b5-cfab4aa2a5aa"
-      }
-    ]
-  },
-  {
-    "id": 6,
-    "name": "Rebits MX",
-    "description": "Sitio web realizado con WordPress para emprendimiento propio en Autlán de Navarro, Jalisco, México.",
-    "img": "https://firebasestorage.googleapis.com/v0/b/portafolio-personal-264fb.appspot.com/o/proyectos%2Fproyecto-2.png?alt=media&token=ec63df39-e657-4689-8326-7ada07ef764b",
-    "demolink": "https://www.rebits.com.mx/",
-    "githubrepo": "",
-    "techlonogy": [
-      {
-        "DES_IMG": "https://firebasestorage.googleapis.com/v0/b/portafolio-personal-264fb.appspot.com/o/tecnologias%2Fjavascript.png?alt=media&token=d263e1e9-e095-4315-83b5-cfab4aa2a5aa"
+        "DES_IMG": "assets/logos/javascript.png"
       }
     ]
   },
@@ -86,7 +52,19 @@
     "githubrepo": "https://github.com/Reffcp/rick-and-morty-angular",
     "techlonogy": [
       {
-        "DES_IMG": "https://firebasestorage.googleapis.com/v0/b/portafolio-personal-264fb.appspot.com/o/tecnologias%2Fjavascript.png?alt=media&token=d263e1e9-e095-4315-83b5-cfab4aa2a5aa"
+        "DES_IMG": "assets/logos/angular.png"
+      },
+      {
+        "DES_IMG": "assets/logos/css.png"
+      },
+      {
+        "DES_IMG": "assets/logos/firebase.png"
+      },
+      {
+        "DES_IMG": "assets/logos/typescript.png"
+      },
+      {
+        "DES_IMG": "assets/logos/html.png"
       }
     ]
   },
@@ -99,7 +77,19 @@
     "githubrepo": "https://github.com/Reffcp/portafolio-personal",
     "techlonogy": [
       {
-        "DES_IMG": "https://firebasestorage.googleapis.com/v0/b/portafolio-personal-264fb.appspot.com/o/tecnologias%2Fjavascript.png?alt=media&token=d263e1e9-e095-4315-83b5-cfab4aa2a5aa"
+        "DES_IMG": "assets/logos/angular.png"
+      },
+      {
+        "DES_IMG": "assets/logos/css.png"
+      },
+      {
+        "DES_IMG": "assets/logos/firebase.png"
+      },
+      {
+        "DES_IMG": "assets/logos/typescript.png"
+      },
+      {
+        "DES_IMG": "assets/logos/html.png"
       }
     ]
   },
@@ -112,7 +102,10 @@
     "githubrepo": "https://github.com/Reffcp/proceso-dise-o",
     "techlonogy": [
       {
-        "DES_IMG": "https://firebasestorage.googleapis.com/v0/b/portafolio-personal-264fb.appspot.com/o/tecnologias%2Fjavascript.png?alt=media&token=d263e1e9-e095-4315-83b5-cfab4aa2a5aa"
+        "DES_IMG": "assets/logos/drawio.png"
+      },
+      {
+        "DES_IMG": "assets/logos/adobexd.png"
       }
     ]
   },
@@ -125,7 +118,19 @@
     "githubrepo": "https://github.com/Reffcp/reto-mi-aguila",
     "techlonogy": [
       {
-        "DES_IMG": "https://firebasestorage.googleapis.com/v0/b/portafolio-personal-264fb.appspot.com/o/tecnologias%2Fjavascript.png?alt=media&token=d263e1e9-e095-4315-83b5-cfab4aa2a5aa"
+        "DES_IMG": "assets/logos/angular.png"
+      },
+      {
+        "DES_IMG": "assets/logos/css.png"
+      },
+      {
+        "DES_IMG": "assets/logos/firebase.png"
+      },
+      {
+        "DES_IMG": "assets/logos/typescript.png"
+      },
+      {
+        "DES_IMG": "assets/logos/html.png"
       }
     ]
   },
@@ -138,59 +143,19 @@
     "githubrepo": "https://github.com/Reffcp/typescript-con-angular",
     "techlonogy": [
       {
-        "DES_IMG": "https://firebasestorage.googleapis.com/v0/b/portafolio-personal-264fb.appspot.com/o/tecnologias%2Fjavascript.png?alt=media&token=d263e1e9-e095-4315-83b5-cfab4aa2a5aa"
-      }
-    ]
-  },
-  {
-    "id": 13,
-    "name": "Diagnóstico Dental Digitál",
-    "description": "Sitio web informativo con wordpress para una clínica de Rx",
-    "img": "https://firebasestorage.googleapis.com/v0/b/portafolio-personal-264fb.appspot.com/o/proyectos%2Fdiagnostico-dental-digital.png?alt=media&token=a8ead318-04e8-4f0a-a3fd-9c3780cb1fcc",
-    "demolink": "http://diagnosticodentaldigital.mx/",
-    "githubrepo": "",
-    "techlonogy": [
+        "DES_IMG": "assets/logos/angular.png"
+      },
       {
-        "DES_IMG": "https://firebasestorage.googleapis.com/v0/b/portafolio-personal-264fb.appspot.com/o/tecnologias%2Fjavascript.png?alt=media&token=d263e1e9-e095-4315-83b5-cfab4aa2a5aa"
-      }
-    ]
-  },
-  {
-    "id": 14,
-    "name": "Diagnóstico Dental Digitál Cloud",
-    "description": "Plataforma de cloud con OwnCloud para una clínica de Rx",
-    "img": "https://firebasestorage.googleapis.com/v0/b/portafolio-personal-264fb.appspot.com/o/proyectos%2Fdiagnostico-dental-digital-cloud.png?alt=media&token=0b9e16db-76a8-41fb-8641-ef5ef69daf9e",
-    "demolink": "http://diagnosticodentaldigital.mx/owncloud",
-    "githubrepo": "",
-    "techlonogy": [
+        "DES_IMG": "assets/logos/typescript.png"
+      },
       {
-        "DES_IMG": "https://firebasestorage.googleapis.com/v0/b/portafolio-personal-264fb.appspot.com/o/tecnologias%2Fjavascript.png?alt=media&token=d263e1e9-e095-4315-83b5-cfab4aa2a5aa"
-      }
-    ]
-  },
-  {
-    "id": 15,
-    "name": "Hotel de Camino Real",
-    "description": "Sitio web informativo con wordpress para una cadena hotelera",
-    "img": "https://firebasestorage.googleapis.com/v0/b/portafolio-personal-264fb.appspot.com/o/proyectos%2Fhotel-del-camino-real.png?alt=media&token=3474bb64-750b-4938-9f68-6183900093e9",
-    "demolink": "https://hoteldelcaminoreal.com/",
-    "githubrepo": "",
-    "techlonogy": [
+        "DES_IMG": "assets/logos/css.png"
+      },
       {
-        "DES_IMG": "https://firebasestorage.googleapis.com/v0/b/portafolio-personal-264fb.appspot.com/o/tecnologias%2Fjavascript.png?alt=media&token=d263e1e9-e095-4315-83b5-cfab4aa2a5aa"
-      }
-    ]
-  },
-  {
-    "id": 16,
-    "name": "Bungalows Mirna",
-    "description": "Sitio web informativo con wordpress para un negocio de bungalows",
-    "img": "https://firebasestorage.googleapis.com/v0/b/portafolio-personal-264fb.appspot.com/o/proyectos%2Fbungalowsmirna.png?alt=media&token=ed2a95c9-1fd3-4de8-947d-d1c54cf93b38",
-    "demolink": "https://bungalowsmirnahaciendarobles.com/",
-    "githubrepo": "",
-    "techlonogy": [
+        "DES_IMG": "assets/logos/firebase.png"
+      },
       {
-        "DES_IMG": "https://firebasestorage.googleapis.com/v0/b/portafolio-personal-264fb.appspot.com/o/tecnologias%2Fjavascript.png?alt=media&token=d263e1e9-e095-4315-83b5-cfab4aa2a5aa"
+        "DES_IMG": "assets/logos/html.png"
       }
     ]
   }
