@@ -8,7 +8,7 @@
       <div class="card-header d-flex justify-content-center">
         <img
           [src]="experiencia.DES_IMG"
-          class="card-img-top m-0 p-1"
+          class="card-img-top m-0 p-3"
           [alt]="experiencia.DES_NOMBRE_EMPRESA + ' imagen'"
           style="width: 90%"
         />
@@ -28,7 +28,7 @@
       </div>
       <div class="card-footer row">
         <img
-          class="col-2 p-3"
+          class="col-1 p-2"
           *ngFor="let tecnologia of experiencia.TECNOLOGIAS"
           [src]="tecnologia.DES_NOMBRE"
         />
