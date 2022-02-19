@@ -1,3 +1,5 @@
+import { ProyectosModule } from './views/proyectos/proyectos.module';
+import { ExperienciaModule } from './views/experiencia/experiencia.module';
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
@@ -10,10 +12,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
 @NgModule({
-  declarations: [
-    AppComponent,
-    LayoutComponent,
-  ],
+  declarations: [AppComponent, LayoutComponent],
   imports: [
     BrowserModule,
     AppRoutingModule,
@@ -21,8 +20,10 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
     CoreModule,
     BrowserAnimationsModule,
     NgbModule,
+    ExperienciaModule,
+    ProyectosModule,
   ],
   providers: [],
-  bootstrap: [AppComponent ],
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}

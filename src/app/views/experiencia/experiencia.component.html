@@ -1,7 +1,7 @@
 <div class="container-fluid">
   <div class="row p-0 justify-content-center">
     <div
-      class="card col-12 col-md-5 m-1"
+      class="card col-11 col-md-5 col-lg-4 col-xl-3 m-1"
       style="width: auto"
       *ngFor="let experiencia of experiencias"
     >
@@ -28,7 +28,7 @@
       </div>
       <div class="card-footer row">
         <img
-          class="col-1 p-2"
+          class="col-1 p-0 ml-1 mr-1"
           *ngFor="let tecnologia of experiencia.TECNOLOGIAS"
           [src]="tecnologia.DES_NOMBRE"
         />

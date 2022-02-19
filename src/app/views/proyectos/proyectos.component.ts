@@ -1,4 +1,4 @@
-import { IProyecto } from './../../../../core/models/proyecto.model';
+import { IProyecto } from './../../core/models/proyecto.model';
 import { Component, Input, OnInit } from '@angular/core';
 import { ProyectosService } from 'src/app/core/services/proyectos/proyectos.service';
 
@@ -8,18 +8,18 @@ import { ProyectosService } from 'src/app/core/services/proyectos/proyectos.serv
   styleUrls: ['./proyectos.component.scss'],
 })
 export class ProyectosComponent implements OnInit {
-
-  @Input() tipoProyectos : string = '';
+  @Input() tipoProyectos: string = '';
 
   public proyectos: IProyecto[] = [];
-  constructor(private projectService: ProyectosService) { }
+  constructor(private projectService: ProyectosService) {}
 
   public ngOnInit(): void {
-    this.projectService.getProjects(this.tipoProyectos)
-    .subscribe((res: IProyecto[]) => {
-      this.proyectos = res;
-      this.proyectos.reverse();
-    });
+    this.projectService
+      .getProjects(this.tipoProyectos)
+      .subscribe((res: IProyecto[]) => {
+        this.proyectos = res;
+        this.proyectos.reverse();
+      });
   }
 
   public ancla(id) {
@@ -29,5 +29,4 @@ export class ProyectosComponent implements OnInit {
   public gotoUrl(url) {
     window.open(url, '_blank');
   }
-
 }

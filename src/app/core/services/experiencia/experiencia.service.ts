@@ -10,4 +10,8 @@ export class ExperienciaService {
   public getExperiencia() {
     return this.http.get('../../../../assets/data/formal.json');
   }
+
+  public getAsesorias() {
+    return this.http.get('../../../../assets/data/asesorias.json');
+  }
 }

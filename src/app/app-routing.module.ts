@@ -14,21 +14,42 @@ const routes: Routes = [
       },
       {
         path: 'inicio',
-        loadChildren: () => import('./views/inicio/inicio.module').then( (m) => m.InicioModule),
+        loadChildren: () =>
+          import('./views/inicio/inicio.module').then((m) => m.InicioModule),
+      },
+      {
+        path: 'experiencia/:tipoExperiencia',
+        loadChildren: () =>
+          import('./views/experiencia/experiencia.module').then(
+            (m) => m.ExperienciaModule
+          ),
+      },
+      {
+        path: 'proyectos/:tipoProyectos',
+        loadChildren: () =>
+          import('./views/proyectos/proyectos.module').then(
+            (m) => m.ProyectosModule
+          ),
       },
       {
         path: 'sobre-mi',
-        loadChildren: () => import('./views/sobre-mi/sobre-mi.module').then( (m) => m.SobreMiModule),
+        loadChildren: () =>
+          import('./views/sobre-mi/sobre-mi.module').then(
+            (m) => m.SobreMiModule
+          ),
       },
     ],
-  }];
+  },
+];
 
 @NgModule({
-  imports: [RouterModule.forRoot(routes, {
-    preloadingStrategy: PreloadAllModules,
-    useHash: true,
-    relativeLinkResolution: 'legacy'
-})],
+  imports: [
+    RouterModule.forRoot(routes, {
+      preloadingStrategy: PreloadAllModules,
+      useHash: true,
+      relativeLinkResolution: 'legacy',
+    }),
+  ],
   exports: [RouterModule],
 })
-export class AppRoutingModule { }
+export class AppRoutingModule {}
