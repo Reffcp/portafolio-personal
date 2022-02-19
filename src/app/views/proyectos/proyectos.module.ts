@@ -1,7 +1,8 @@
-import { ProyectosRoutingModule } from './proyectos-routing.module';
 import { NgModule } from '@angular/core';
-import { CommonModule } from '@angular/common';
+
 import { ProyectosComponent } from './proyectos.component';
+import { ProyectosRoutingModule } from './proyectos-routing.module';
+import { CommonModule } from '@angular/common';
 
 @NgModule({
   declarations: [ProyectosComponent],

@@ -1,5 +1,3 @@
-import { ProyectosModule } from './views/proyectos/proyectos.module';
-import { ExperienciaModule } from './views/experiencia/experiencia.module';
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
@@ -10,9 +8,10 @@ import { SharedModule } from './shared/shared.module';
 import { CoreModule } from './core/core.module';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import { ProyectosComponent } from './views/proyectos/proyectos.component';
 
 @NgModule({
-  declarations: [AppComponent, LayoutComponent],
+  declarations: [AppComponent, LayoutComponent, ProyectosComponent],
   imports: [
     BrowserModule,
     AppRoutingModule,

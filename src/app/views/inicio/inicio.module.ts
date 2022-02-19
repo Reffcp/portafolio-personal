@@ -1,7 +1,6 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { InicioRoutingModule } from './inicio-routing.module';
-import { SharedModule } from 'src/app/shared/shared.module';
 import { InicioComponent } from './inicio.component';
 
 @NgModule({
@@ -11,7 +10,6 @@ import { InicioComponent } from './inicio.component';
   imports: [
     CommonModule,
     InicioRoutingModule,
-    SharedModule,
   ],
 })
 export class InicioModule { }

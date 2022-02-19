@@ -16,10 +16,10 @@ export class ProyectosComponent implements OnInit {
   ) {}
 
   public ngOnInit(): void {
-    this.actRoute.params.subscribe((params) => {
-      const tipoProyectos = params['tipoProyectos'];
-      this.obtenerProyectos(tipoProyectos);
-    });
+    // this.actRoute.params.subscribe((params) => {
+    //   const tipoProyectos = params['tipoProyectos'];
+    //   this.obtenerProyectos(tipoProyectos);
+    // });
   }
 
   obtenerProyectos(tipoProyectos: string) {
