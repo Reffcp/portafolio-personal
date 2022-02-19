@@ -1,6 +1,7 @@
 import { IProyecto } from './../../core/models/proyecto.model';
-import { Component, Input, OnInit } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 import { ProyectosService } from 'src/app/core/services/proyectos/proyectos.service';
+import { ActivatedRoute } from '@angular/router';
 
 @Component({
   selector: 'app-proyectos',
@@ -8,14 +9,30 @@ import { ProyectosService } from 'src/app/core/services/proyectos/proyectos.serv
   styleUrls: ['./proyectos.component.scss'],
 })
 export class ProyectosComponent implements OnInit {
-  @Input() tipoProyectos: string = '';
-
   public proyectos: IProyecto[] = [];
-  constructor(private projectService: ProyectosService) {}
+  constructor(
+    private projectService: ProyectosService,
+    private actRoute: ActivatedRoute
+  ) {}
 
   public ngOnInit(): void {
+    this.actRoute.params.subscribe((params) => {
+      const tipoProyectos = params['tipoProyectos'];
+      this.obtenerProyectos(tipoProyectos);
+    });
+  }
+
+  obtenerProyectos(tipoProyectos: string) {
+    switch (tipoProyectos) {
+      case 'formal':
+        this.getProyectosFormal();
+        break;
+    }
+  }
+
+  getProyectosFormal() {
     this.projectService
-      .getProjects(this.tipoProyectos)
+      .getProjects('freelancer')
       .subscribe((res: IProyecto[]) => {
         this.proyectos = res;
         this.proyectos.reverse();

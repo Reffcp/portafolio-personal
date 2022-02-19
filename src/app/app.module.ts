@@ -20,8 +20,6 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
     CoreModule,
     BrowserAnimationsModule,
     NgbModule,
-    ExperienciaModule,
-    ProyectosModule,
   ],
   providers: [],
   bootstrap: [AppComponent],

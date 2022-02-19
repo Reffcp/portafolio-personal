@@ -38,6 +38,11 @@ const routes: Routes = [
             (m) => m.SobreMiModule
           ),
       },
+      {
+        path: '**',
+        redirectTo: '',
+        pathMatch: 'full',
+      },
     ],
   },
 ];
@@ -45,9 +50,11 @@ const routes: Routes = [
 @NgModule({
   imports: [
     RouterModule.forRoot(routes, {
+      anchorScrolling: 'enabled',
       preloadingStrategy: PreloadAllModules,
       useHash: true,
       relativeLinkResolution: 'legacy',
+      initialNavigation: 'enabled',
     }),
   ],
   exports: [RouterModule],
