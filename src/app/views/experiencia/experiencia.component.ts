@@ -30,6 +30,7 @@ export class ExperienciaComponent implements OnInit {
         break;
 
       case 'asesorias':
+        this.getAsesorias();
         break;
 
       default:

@@ -1,0 +1,97 @@
+[
+  {
+    "DES_NOMBRE_EMPRESA": "Accendo Occidente",
+    "DES_IMG": "",
+    "DES_LUGAR_EMPRESA": "Autlan de navarro, Jalisco.",
+    "DES_NOMBRE_PUESTO": "Asesor de proyectos de desarrollo",
+    "FECHA_INICIO": "Noviembre 2021",
+    "FECHA_FIN": "Actualidad",
+    "DES_PUESTO": "Asesor para proyectos de desarrollo de software, coordinando e instruyendo a desarrolladores del area. ",
+    "TECNOLOGIAS": [
+      {
+        "DES_NOMBRE": "https://firebasestorage.googleapis.com/v0/b/portafolio-personal-264fb.appspot.com/o/tecnologias%2Fangular.png?alt=media&token=5041b6e6-a0d2-4b4f-85d4-ea89fa65e15c"
+      },
+      {
+        "DES_NOMBRE": "https://firebasestorage.googleapis.com/v0/b/portafolio-personal-264fb.appspot.com/o/tecnologias%2Ftypescript.png?alt=media&token=5d354e51-a1fa-48ba-a23b-a88a057fa97e"
+      },
+      {
+        "DES_NOMBRE": "https://firebasestorage.googleapis.com/v0/b/portafolio-personal-264fb.appspot.com/o/tecnologias%2Fjavascript.png?alt=media&token=d263e1e9-e095-4315-83b5-cfab4aa2a5aa"
+      },
+      {
+        "DES_NOMBRE": "https://firebasestorage.googleapis.com/v0/b/portafolio-personal-264fb.appspot.com/o/tecnologias%2Fnodejs.png?alt=media&token=4d0fb5ba-3c53-4dae-a8aa-1b2d820033b9"
+      },
+      {
+        "DES_NOMBRE": "https://firebasestorage.googleapis.com/v0/b/portafolio-personal-264fb.appspot.com/o/tecnologias%2Fmysql.svg?alt=media&token=eaa011b1-8565-40c6-a06f-9cd50a54d5de"
+      },
+      {
+        "DES_NOMBRE": "assets/logos/ionic.png"
+      },
+      {
+        "DES_NOMBRE": "assets/logos/cpanel.png"
+      }
+    ]
+  },
+  {
+    "DES_NOMBRE_EMPRESA": "Solorio Dental",
+    "DES_IMG": "assets/img-experiencia-formal/img-soloriodental.png",
+    "DES_LUGAR_EMPRESA": "Autlán de Navarro, Jalisco, México.",
+    "DES_NOMBRE_PUESTO": "Asesor tecnico de redes y software",
+    "FECHA_INICIO": "Diciembre 2019",
+    "FECHA_FIN": "Actualidad",
+    "DES_PUESTO": "Ingeniero de redes y software por honorarios apoando en resolucion de temas tecnologicos",
+    "TECNOLOGIAS": [
+      {
+        "DES_NOMBRE": "https://firebasestorage.googleapis.com/v0/b/portafolio-personal-264fb.appspot.com/o/tecnologias%2Fangular.png?alt=media&token=5041b6e6-a0d2-4b4f-85d4-ea89fa65e15c"
+      },
+      {
+        "DES_NOMBRE": "https://firebasestorage.googleapis.com/v0/b/portafolio-personal-264fb.appspot.com/o/tecnologias%2Ftypescript.png?alt=media&token=5d354e51-a1fa-48ba-a23b-a88a057fa97e"
+      },
+      {
+        "DES_NOMBRE": "https://firebasestorage.googleapis.com/v0/b/portafolio-personal-264fb.appspot.com/o/tecnologias%2Fjavascript.png?alt=media&token=d263e1e9-e095-4315-83b5-cfab4aa2a5aa"
+      },
+      {
+        "DES_NOMBRE": "https://firebasestorage.googleapis.com/v0/b/portafolio-personal-264fb.appspot.com/o/tecnologias%2Fmysql.svg?alt=media&token=eaa011b1-8565-40c6-a06f-9cd50a54d5de"
+      },
+      {
+        "DES_NOMBRE": "assets/logos/cpanel.png"
+      }
+    ]
+  },
+  {
+    "DES_NOMBRE_EMPRESA": "El Caldero",
+    "DES_IMG": "",
+    "DES_LUGAR_EMPRESA": "Autlan de Navarro, Jalisco, México.",
+    "DES_NOMBRE_PUESTO": "Soporte de redes y software",
+    "FECHA_INICIO": "Julio 2016",
+    "FECHA_FIN": "Actualidad",
+    "DES_PUESTO": "Ingeniero de software por honorarios apoyando en el desarrollo de nucleo bancario y sistema de creditos",
+    "TECNOLOGIAS": [
+      {
+        "DES_NOMBRE": "https://firebasestorage.googleapis.com/v0/b/portafolio-personal-264fb.appspot.com/o/tecnologias%2Fjava.webp?alt=media&token=8eb2f569-534f-4bd6-93a7-d071ae4c0a83"
+      },
+      {
+        "DES_NOMBRE": "https://firebasestorage.googleapis.com/v0/b/portafolio-personal-264fb.appspot.com/o/tecnologias%2Fmysql.svg?alt=media&token=eaa011b1-8565-40c6-a06f-9cd50a54d5de"
+      }
+    ]
+  },
+  {
+    "DES_NOMBRE_EMPRESA": "CREO Computer",
+    "DES_IMG": "",
+    "DES_LUGAR_EMPRESA": "Autlán de Navarro, Jalisco, México.",
+    "DES_NOMBRE_PUESTO": "Asesor de redes de video",
+    "FECHA_INICIO": "Febrero 2018",
+    "FECHA_FIN": "Actualidad",
+    "DES_PUESTO": "Asesor de redes de video por honorarios apoyando el soporte e instalacion de videvigilancia",
+    "TECNOLOGIAS": []
+  },
+  {
+    "DES_NOMBRE_EMPRESA": "Carnaval Autlan de Navarro",
+    "DES_IMG": "",
+    "DES_LUGAR_EMPRESA": "Autlán de Navarro, Jalisco, México.",
+    "DES_NOMBRE_PUESTO": "Ingeniero de redes de video",
+    "FECHA_INICIO": "Febrero 2020",
+    "FECHA_FIN": "Febrero 2020",
+    "DES_PUESTO": "Encargado de redes de video y transmisiones en vivo de eventos",
+    "TECNOLOGIAS": []
+  }
+]
