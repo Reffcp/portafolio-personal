@@ -1,5 +1,5 @@
 .icon-menu {
-  background-image: url('https://firebasestorage.googleapis.com/v0/b/portafolio-personal-264fb.appspot.com/o/iconos%2Fmenu.svg?alt=media&token=7880b6db-1a42-4c8f-a6a1-153407377bdc');
+  background-image: url("https://firebasestorage.googleapis.com/v0/b/portafolio-personal-264fb.appspot.com/o/iconos%2Fmenu.svg?alt=media&token=7880b6db-1a42-4c8f-a6a1-153407377bdc");
   background-size: cover;
   background-repeat: no-repeat;
   width: 40px;
@@ -126,5 +126,9 @@ figure {
 
   .menu.is-active {
     left: 0;
+    z-index: 100;
+  }
+  .menu.is-inactive {
+    z-index: 0;
   }
 }

@@ -6,19 +6,18 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./header.component.scss'],
 })
 export class HeaderComponent implements OnInit {
+  constructor() {}
 
-  constructor() { }
-
-  public ngOnInit(): void {
-  }
+  public ngOnInit(): void {}
 
   public abrirMenu() {
     const menu = document.querySelector('.menu');
     if (menu.classList.contains('is-active')) {
       menu.classList.remove('is-active');
+      menu.classList.add('is-inactive');
     } else {
       menu.classList.add('is-active');
+      menu.classList.remove('is-inactive');
     }
   }
-
 }
