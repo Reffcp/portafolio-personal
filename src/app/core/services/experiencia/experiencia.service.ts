@@ -8,10 +8,10 @@ export class ExperienciaService {
   constructor(private http: HttpClient) {}
 
   public getExperiencia() {
-    return this.http.get('../../../../assets/data/formal.json');
+    return this.http.get('../../../../assets/data/experiencia-formal.json');
   }
 
   public getAsesorias() {
-    return this.http.get('../../../../assets/data/asesorias.json');
+    return this.http.get('../../../../assets/data/experiencia-asesorias.json');
   }
 }

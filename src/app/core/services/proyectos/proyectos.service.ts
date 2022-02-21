@@ -8,10 +8,6 @@ export class ProyectosService {
   constructor(private http: HttpClient) {}
 
   public getProjects(tipo: string) {
-    return this.http.get(
-      '../../../../assets/data/proyectos'
-      + ((tipo == '') ? '' : '-' + tipo)
-      + '.json'
-    );
+    return this.http.get('../../../../assets/data/' + tipo + '.json');
   }
 }

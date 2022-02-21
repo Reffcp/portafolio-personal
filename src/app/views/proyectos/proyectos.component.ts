@@ -16,23 +16,35 @@ export class ProyectosComponent implements OnInit {
   ) {}
 
   public ngOnInit(): void {
-    // this.actRoute.params.subscribe((params) => {
-    //   const tipoProyectos = params['tipoProyectos'];
-    //   this.obtenerProyectos(tipoProyectos);
-    // });
+    this.actRoute.params.subscribe((params) => {
+      const tipoProyectos = params['tipoProyectos'];
+      this.obtenerProyectos(tipoProyectos);
+    });
   }
 
   obtenerProyectos(tipoProyectos: string) {
     switch (tipoProyectos) {
-      case 'formal':
-        this.getProyectosFormal();
+      case 'freelancer':
+        this.getProyectosFreelancer();
+        break;
+      case 'publicos':
+        this.getProyectosPublicos();
         break;
     }
   }
 
-  getProyectosFormal() {
+  getProyectosFreelancer() {
     this.projectService
-      .getProjects('freelancer')
+      .getProjects('proyectos-freelancer')
+      .subscribe((res: IProyecto[]) => {
+        this.proyectos = res;
+        this.proyectos.reverse();
+      });
+  }
+
+  getProyectosPublicos() {
+    this.projectService
+      .getProjects('proyectos-publicos')
       .subscribe((res: IProyecto[]) => {
         this.proyectos = res;
         this.proyectos.reverse();
