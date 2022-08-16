@@ -5,7 +5,6 @@ import { HeaderComponent } from './layout/header/header.component';
 const routes: Routes = [
   {
     path: '',
-    component: HeaderComponent,
     loadChildren: () => import('./pages/home/home.module').then(m => m.HomeModule)
   },
 ];
