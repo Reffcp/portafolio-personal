@@ -1,8 +1,8 @@
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
+<nav class="navbar navbar-expand-lg navbar-light bg-dark bg-gradient">
   <div class="container-fluid">
-    <a class="navbar-brand" href="#">Navbar</a>
+    <a class="navbar-brand text-white" [routerLink]="'/'">Logo</a>
     <button
-      class="navbar-toggler"
+      class="navbar-toggler text-white"
       type="button"
       data-bs-toggle="collapse"
       data-bs-target="#navbarTogglerDemo02"
@@ -13,9 +13,14 @@
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-        <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">Home</a>
+      <ul class="navbar-nav mb-2 mb-lg-0 ms-auto">
+        <li class="nav-item" *ngFor="let element of menu">
+          <a
+            class="nav-link text-white"
+            aria-current="page"
+            [routerLink]="element.link"
+            >{{ element.name }}</a
+          >
         </li>
       </ul>
     </div>
