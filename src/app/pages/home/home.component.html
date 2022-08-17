@@ -10,8 +10,14 @@
           experiencia en la industria tech.
         </span>
       </div>
-      <div class="col-12">
-
+      <div class="col-12 d-flex mt-4">
+        <app-social-stick
+          *ngFor="let sNetwork of sNetWorks"
+          class="col-3"
+          [socialNetWorkName]="sNetwork.socialNetWorkName"
+          [nickname]="sNetwork.nickname"
+          [socialNetWorkUrl]="sNetwork.socialNetWorkUrl"
+        ></app-social-stick>
       </div>
     </div>
     <div class="col-3">

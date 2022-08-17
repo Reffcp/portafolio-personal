@@ -1,0 +1,15 @@
+<div class="container" *ngIf="socialNetWorkName">
+  <div class="row">
+    <div class="col-4 d-flex justify-content-end align-items-center">
+      <i [class]="'bi bi-' + socialIcon + ' fs-1'"></i>
+    </div>
+    <a class="col-8" [href]="socialNetWorkUrl" target="_blank">
+      <div class="col-12">
+        <span>{{ socialNetWorkName }}</span>
+      </div>
+      <div class="col-12">
+        <h4>{{ nickname }}</h4>
+      </div>
+    </a>
+  </div>
+</div>
