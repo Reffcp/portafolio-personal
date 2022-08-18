@@ -45,7 +45,7 @@ export class HeaderComponent implements OnInit {
     },
     {
       name: 'Experiencia Laboral',
-      link: '/experience',
+      link: '/experiencia',
     },
     {
       name: 'Experiencia Academica',
