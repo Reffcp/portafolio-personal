@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
+import { ExperienceFilterComponent } from './components/experience-filter/experience-filter.component';
 import { ExperienceComponent } from './experience.component';
 
 const routes: Routes = [
@@ -9,8 +10,8 @@ const routes: Routes = [
   },
   {
     path: ':type',
-    component: ExperienceComponent,
-  }
+    component: ExperienceFilterComponent,
+  },
 ];
 
 @NgModule({
