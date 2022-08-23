@@ -1,1 +1,23 @@
-<p>experience-filter works!</p>
+<div class="container">
+  <div class="row d-flex justify-content-center">
+    <div class="col-12 mt-3">
+      <h2 class="border-bottom text-center">Experiencia {{typeExperienceTitle}}</h2>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-lg-3 col-md-5 col-11 card m-1 p-0">
+      <img src="assets/yo-2.png" class="card-img-top" alt="..." />
+      <div class="card-body">
+        <h5 class="card-title">Experiencia Freelancer</h5>
+        <p class="card-text">
+          Experiencia trabajando con negocios y empresas como Freelacer.
+        </p>
+      </div>
+      <div class="card-footer d-flex justify-content-center">
+        <a [routerLink]="['/experiencia', 'freelancer']" class="btn btn-primary"
+          >Ver experiencia</a
+        >
+      </div>
+    </div>
+  </div>
+</div>
