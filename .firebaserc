@@ -1,5 +1,14 @@
 {
   "projects": {
     "default": "reff-portafolio-personal"
+  },
+  "targets": {
+    "reff-portafolio-personal": {
+      "hosting": {
+        "portafolio-personal": [
+          "reff-portafolio-personal"
+        ]
+      }
+    }
   }
 }
