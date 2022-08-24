@@ -9,6 +9,7 @@ export interface IExperienceModel {
   FECHA_FIN: any;
   FECHA_INICIO: any;
   JSON_TECNOLOGIAS: IExpTechnologiesModel[];
+  BND_TRABAJO_ACTUAL: boolean;
 }
 
 interface IExpTechnologiesModel {

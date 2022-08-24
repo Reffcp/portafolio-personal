@@ -26,7 +26,11 @@
           <h6 class="card-title">
             &nbsp;
             {{ experience.FECHA_INICIO | date }} -
-            {{ experience.FECHA_FIN | date }}
+            {{
+              experience.BND_TRABAJO_ACTUAL
+                ? "Actual"
+                : (experience.FECHA_FIN | date)
+            }}
           </h6>
         </div>
         <div class="d-flex">
