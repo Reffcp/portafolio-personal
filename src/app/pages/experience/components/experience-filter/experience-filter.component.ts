@@ -30,6 +30,10 @@ export class ExperienceFilterComponent implements OnInit {
           data.FECHA_FIN = data.FECHA_FIN.toDate();
           return data;
         });
+        const sortedArray = this.experiences.sort(
+          (a, b) => b.FECHA_FIN - a.FECHA_FIN
+        );
+        this.experiences = sortedArray;
       });
   }
 
