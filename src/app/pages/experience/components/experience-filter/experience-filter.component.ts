@@ -1,5 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
+import { ExperiencieService } from 'src/app/core/service/experiencie.service';
+import { IExperienceModel } from 'src/app/shared/models/experience.model';
 
 @Component({
   selector: 'app-experience-filter',
@@ -9,10 +11,26 @@ import { ActivatedRoute } from '@angular/router';
 export class ExperienceFilterComponent implements OnInit {
   typeExperience = '';
   typeExperienceTitle = '';
-  constructor(private activatedRoute: ActivatedRoute) {}
+  experiences: IExperienceModel[] = [];
+  constructor(
+    private activatedRoute: ActivatedRoute,
+    private experiencieService: ExperiencieService
+  ) {}
 
   ngOnInit(): void {
     this.getParams();
+  }
+
+  getExperiencieFilter(filter: string) {
+    this.experiencieService
+      .getExperienceByFilter(filter)
+      .subscribe((res: IExperienceModel[]) => {
+        this.experiences = res.map((data) => {
+          data.FECHA_INICIO = data.FECHA_INICIO.toDate();
+          data.FECHA_FIN = data.FECHA_FIN.toDate();
+          return data;
+        });
+      });
   }
 
   getParams(): void {
@@ -32,6 +50,7 @@ export class ExperienceFilterComponent implements OnInit {
         default:
           break;
       }
+      this.getExperiencieFilter(res.type);
     });
   }
 }

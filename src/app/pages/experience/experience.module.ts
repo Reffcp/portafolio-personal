@@ -5,7 +5,6 @@ import { ExperienceRoutingModule } from './experience-routing.module';
 import { ExperienceFilterComponent } from './components/experience-filter/experience-filter.component';
 
 
-
 @NgModule({
   declarations: [
     ExperienceComponent,
@@ -13,7 +12,7 @@ import { ExperienceFilterComponent } from './components/experience-filter/experi
   ],
   imports: [
     CommonModule,
-    ExperienceRoutingModule
+    ExperienceRoutingModule,
   ]
 })
 export class ExperienceModule { }

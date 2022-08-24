@@ -7,69 +7,36 @@
     </div>
   </div>
   <div class="row d-flex justify-content-center">
-    <div class="col-lg-3 col-md-5 col-11 card m-1 p-0">
+    <div
+      class="col-lg-3 col-md-5 col-11 card m-1 p-0"
+      *ngFor="let experience of experiences"
+    >
       <img
-        src="https://firebasestorage.googleapis.com/v0/b/reff-portafolio-personal.appspot.com/o/experiencia%2Fsin-foto.png?alt=media&token=46e75a38-7f76-4833-9ce8-4c6de16fd643"
+        [src]="experience.DES_URL_PORTADA"
         class="card-img-top border-bottom"
         alt="..."
       />
       <div class="card-body">
-        <h5 class="card-title">Nombre de la empresa - Remoto</h5>
-        <h6 class="card-title">Feb 2019 - Feb 2020</h6>
+        <h5 class="card-title">
+          {{ experience.DES_NOMBRE_EMPRESA }} - {{ experience.DES_TIPO_EMPLEO }}
+        </h5>
+        <h6 class="card-title">
+          {{ experience.FECHA_INICIO | date }} -
+          {{ experience.FECHA_FIN | date }}
+        </h6>
         <p class="card-text">
-          Descripción de corta de lo que se realizaba en la empresa.
+          {{ experience.DES_DESCRIPCION_CORTA }}
         </p>
       </div>
       <div class="card-footer">
         <div class="row d-flex justify-content-center">
           <div class="col-12">
             <img
+              *ngFor="let tecnologias of experience.JSON_TECNOLOGIAS"
               class="col-1 m-1"
-              src="/favicon.ico"
-              title="una tecnologia"
-              alt="una tecnologia"
-            />
-            <img
-              class="col-1 m-1"
-              src="/favicon.ico"
-              title="una tecnologia"
-              alt="una tecnologia"
-            />
-            <img
-              class="col-1 m-1"
-              src="/favicon.ico"
-              title="una tecnologia"
-              alt="una tecnologia"
-            />
-            <img
-              class="col-1 m-1"
-              src="/favicon.ico"
-              title="una tecnologia"
-              alt="una tecnologia"
-            />
-            <img
-              class="col-1 m-1"
-              src="/favicon.ico"
-              title="una tecnologia"
-              alt="una tecnologia"
-            />
-            <img
-              class="col-1 m-1"
-              src="/favicon.ico"
-              title="una tecnologia"
-              alt="una tecnologia"
-            />
-            <img
-              class="col-1 m-1"
-              src="/favicon.ico"
-              title="una tecnologia"
-              alt="una tecnologia"
-            />
-            <img
-              class="col-1 m-1"
-              src="/favicon.ico"
-              title="una tecnologia"
-              alt="una tecnologia"
+              [src]="tecnologias.DES_URL_LOGO"
+              [title]="tecnologias.DES_NOMBRE"
+              [alt]="tecnologias.DES_NOMBRE"
             />
           </div>
           <a
