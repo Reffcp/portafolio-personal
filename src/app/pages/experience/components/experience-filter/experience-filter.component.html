@@ -17,16 +17,32 @@
         alt="..."
       />
       <div class="card-body">
-        <h5 class="card-title">
-          {{ experience.DES_NOMBRE_EMPRESA }} - {{ experience.DES_TIPO_EMPLEO }}
-        </h5>
-        <h6 class="card-title">
-          {{ experience.FECHA_INICIO | date }} -
-          {{ experience.FECHA_FIN | date }}
-        </h6>
-        <p class="card-text">
-          {{ experience.DES_DESCRIPCION_CORTA }}
-        </p>
+        <div class="d-flex">
+          <i class="bi bi-building"></i>
+          <h5 class="card-title">&nbsp; {{ experience.DES_NOMBRE_EMPRESA }}</h5>
+        </div>
+        <div class="d-flex">
+          <i class="bi bi-calendar3"></i>
+          <h6 class="card-title">
+            &nbsp;
+            {{ experience.FECHA_INICIO | date }} -
+            {{ experience.FECHA_FIN | date }}
+          </h6>
+        </div>
+        <div class="d-flex">
+          <i class="bi bi-geo-alt"></i>
+          &nbsp;
+          <h6 class="card-title">
+            {{ experience.DES_TIPO_EMPLEO }} - {{ experience.DES_UBICACION }}
+          </h6>
+        </div>
+        <div class="d-flex">
+          <i class="bi bi-person-workspace"></i>
+          &nbsp;
+          <p class="card-text">
+            {{ experience.DES_DESCRIPCION_CORTA }}
+          </p>
+        </div>
       </div>
       <div class="card-footer">
         <div class="row d-flex justify-content-center">
